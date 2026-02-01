@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>godrej_Information-Security-Policy</title>
+<meta name="generator" content="Docling HTML Serializer"/>
+<style>
+    html {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+    }
+    h1 {
+        font-size: 2em;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 0.3em;
+    }
+    table {
+        border-collapse: collapse;
+        margin: 1em 0;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+    figure {
+        margin: 1.5em 0;
+        text-align: center;
+    }
+    figcaption {
+        color: #666;
+        font-style: italic;
+        margin-top: 0.5em;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    pre {
+        background-color: #f6f8fa;
+        border-radius: 3px;
+        padding: 1em;
+        overflow: auto;
+    }
+    code {
+        font-family: monospace;
+        background-color: #f6f8fa;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+    }
+    pre code {
+        background-color: transparent;
+        padding: 0;
+    }
+    .formula {
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em 0;
+        background-color: #f9f9f9;
+    }
+    .formula-not-decoded {
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em 0;
+        background: repeating-linear-gradient(
+            45deg,
+            #f0f0f0,
+            #f0f0f0 10px,
+            #f9f9f9 10px,
+            #f9f9f9 20px
+        );
+    }
+    .page-break {
+        page-break-after: always;
+        border-top: 1px dashed #ccc;
+        margin: 2em 0;
+    }
+    .key-value-region {
+        background-color: #f9f9f9;
+        padding: 1em;
+        border-radius: 4px;
+        margin: 1em 0;
+    }
+    .key-value-region dt {
+        font-weight: bold;
+    }
+    .key-value-region dd {
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+    }
+    .form-container {
+        border: 1px solid #ddd;
+        padding: 1em;
+        border-radius: 4px;
+        margin: 1em 0;
+    }
+    .form-item {
+        margin-bottom: 0.5em;
+    }
+    .image-classification {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 0.5em;
+    }
+</style>
+</head>
+<body>
+<div class='page'>
+<h2>Information Security Policy</h2>
+<p>Date: 22-05-2023</p>
+<p>Document Status: Approved</p>
+<p>Version: 2.1</p>
+<p>Document Owner: Corporate IT</p>
+<p>Godrej Industries Limited and Associate Companies</p>
+<table><tbody><tr><th>#</th><th>Version No.</th><th>Date</th><th>Change Description</th></tr><tr><td>1</td><td>1.6</td><td>22/02/2022</td><td>New policy</td></tr><tr><td>2</td><td>2.0</td><td>13/01/2023</td><td>Section 6 added, clause for role-based trainings added in section 8, Information handling guidelines added in section 15, privilege access review frequency changed from quarterly to monthly in section 16.2, Section 16.3 updated, CCTV recording details updated in section 17.1, Section 21 - USB policies updated, Section 22 updated, Section 23 - policies for source code protection and outsourced development added, Clauses for confidentiality and data protection added in section 31, data masking clauses added in section 37.1</td></tr><tr><td>3</td><td>2.1</td><td>22/05/2023</td><td>Section 1.4 - Context regarding Godrej group added; clauses added for interested parties, section 3 - clauses added for monitoring and review of KPIs, section 16.1 - system lock duration updated, section 16.3- Password policy updated, section 36.1 - clauses for maintaining compliance to IT Act and CERT-In guidelines added</td></tr></tbody></table>
+<table><tbody><tr><th colspan="5">Policy Approval</th></tr><tr><th>#</th><th>Name</th><th>Designation</th><th>Approval Date</th><th>Signature</th></tr><tr><td>1</td><td>Vijay Kumar Kannan</td><td>Head - Business Transformation and Digital IT, Godrej Consumer Products Limited</td><td>26/01/2023</td><td></td></tr><tr><td>2</td><td>Sumit Mitra</td><td>Head - Group HR, Godrej Industries Limited and Associate Companies</td><td>01/02/2023</td><td></td></tr><tr><td>3</td><td>V Swaminathan</td><td>Head - Corporate Audit &amp; Assurance, Godrej Industries Limited and Associate Companies</td><td>25/01/2023</td><td></td></tr><tr><td>4</td><td>Divya Murthy</td><td>Head - Group &amp; Corporate Legal, Godrej Industries Limited and Associate Companies</td><td>29/01/2023</td><td></td></tr></tbody></table>
+<h2>Table of Contents</h2>
+<table><tbody><tr><td>1.</td><td>Introduction.......................................................................................................................6</td></tr><tr><td>2.</td><td>Policy.................................................................................................................................8</td></tr><tr><td>3.</td><td>Objectives.........................................................................................................................8</td></tr><tr><td>4.</td><td>Consequence Management and Non-Compliance..........................................................9</td></tr><tr><td>5.</td><td>Leadership and Commitment ...........................................................................................9</td></tr><tr><td>5.1</td><td>Security Organizational Structure ...............................................................................9</td></tr><tr><td>5.2</td><td>Roles &amp; Responsibilities............................................................................................10</td></tr><tr><td>6.</td><td>Contacts with relevant authorities...................................................................................12</td></tr><tr><td>7.</td><td>Risk Management ...........................................................................................................12</td></tr><tr><td>8.</td><td>Training and Awareness..................................................................................................12</td></tr><tr><td>9.</td><td>Documentation ...............................................................................................................13</td></tr><tr><td>10.</td><td>Internal audit...................................................................................................................13</td></tr><tr><td>11.</td><td>Management Review ......................................................................................................13</td></tr><tr><td>12.</td><td>BYOD Security Policy......................................................................................................14</td></tr><tr><td>13.</td><td>Acceptable Use Policy ....................................................................................................15</td></tr><tr><td>14.</td><td>Human Resource Security ...............................................................................................15</td></tr><tr><td colspan="2">14.1. During Recruitment...................................................................................................15</td></tr><tr><td colspan="2">14.2. During Employment..................................................................................................16 14.3. Termination and Change of employment.................................................................16 15. Asset Management Policy...............................................................................................16</td></tr><tr><td colspan="2">15.1. Ownership of Information Assets..............................................................................17</td></tr><tr><td colspan="2">15.3. Information Classification and Handling...................................................................17</td></tr><tr><td colspan="2">15.4. Asset Retention and Disposal...................................................................................20</td></tr><tr><td colspan="2">15.5. Media Handling ........................................................................................................20 Access Control Policy......................................................................................................20</td></tr></tbody></table>
+<table><tbody><tr><td>16.1.</td><td>User Access Management ........................................................................................20</td><td></td></tr><tr><td>16.2.</td><td>Privilege Access Management..................................................................................22</td><td></td></tr><tr><td>16.3.</td><td>Authentication Information Management.................................................................22</td><td></td></tr><tr><td>16.4.</td><td>User Responsibilities for Access Management.........................................................23</td><td></td></tr><tr><td>16.5.</td><td>Network Access Control</td><td>...........................................................................................23</td></tr><tr><td>16.6.</td><td>Application Access Control</td><td>......................................................................................24</td></tr><tr><td>16.7.</td><td>Segregation of Duties...............................................................................................24</td><td></td></tr><tr><td>16.8.</td><td>Remote Access</td><td>.........................................................................................................24</td></tr><tr><td>16.9.</td><td>Access to third Party Users .......................................................................................24</td><td></td></tr><tr><td>17.</td><td>Physical &amp; Environmental Security Policy........................................................................25</td><td></td></tr><tr><td>17.1.</td><td>Physical Security........................................................................................................25</td><td></td></tr><tr><td>17.2.</td><td>Equipment Security...................................................................................................25</td><td></td></tr><tr><td>17.3.</td><td>Environmental Security</td><td>.............................................................................................26</td></tr><tr><td>18.</td><td>Change Management Policy...........................................................................................26</td><td></td></tr><tr><td>19.</td><td>Security Incident Management Policy.............................................................................27</td><td></td></tr><tr><td>20.</td><td>Data Backup, Retention and Disposal Policy ..................................................................28</td><td></td></tr><tr><td>21.</td><td>Data Security Policy</td><td>........................................................................................................29</td></tr><tr><td>22.</td><td>Capacity Management Policy .........................................................................................30</td><td></td></tr><tr><td>23.</td><td>System Acquisition, Development, Planning and Maintenance Policy...........................30</td><td></td></tr><tr><td>24.</td><td>Network Security Policy</td><td>..................................................................................................31</td></tr><tr><td>25.</td><td>Secure Baseline &amp; Vulnerability Management................................................................32</td><td></td></tr><tr><td>26.</td><td>Security Patch Management Policy.................................................................................32</td><td></td></tr><tr><td>27.</td><td>Audit Logging and Monitoring Policy.............................................................................33</td><td></td></tr><tr><td>28.</td><td>Network Time Protocol...................................................................................................34</td><td></td></tr><tr><td>29.</td><td>Anti-Virus Policy ..............................................................................................................34</td><td></td></tr><tr><td>30.</td><td>Email Security Policy</td><td>.......................................................................................................34</td></tr><tr><td>31.</td><td>Third-party Management Policy......................................................................................35</td><td></td></tr><tr><td>32.</td><td>Cloud Security Policy ......................................................................................................36</td><td></td></tr><tr><td>33.</td><td>Cryptography Policy........................................................................................................37</td><td></td></tr></tbody></table>
+<table><tbody><tr><td>34.</td><td>Business Continuity &amp; Disaster</td><td>Recovery........................................................................37</td></tr><tr><td>35.</td><td>Operational Technology (OT) Policy...............................................................................38</td><td></td></tr><tr><td>36.</td><td>Compliance.....................................................................................................................39</td><td></td></tr><tr><td colspan="2">36.1.</td><td>Compliance Management</td><td>........................................................................................39</td></tr><tr><td colspan="2">36.2.</td><td>Intellectual Property Rights (IPR)...............................................................................39</td></tr><tr><td colspan="2">36.3.</td><td>Use of Cryptographic Controls .................................................................................40</td></tr><tr><td>37.</td><td colspan="2">Data Privacy ....................................................................................................................40</td></tr><tr><td colspan="2">37.1.</td><td>Privacy Governance ..................................................................................................40</td></tr><tr><td colspan="2">37.2.</td><td>Notice .......................................................................................................................40</td></tr><tr><td colspan="2">37.3.</td><td>Consent ....................................................................................................................40</td></tr><tr><td colspan="2">37.4.</td><td>Collection and Use....................................................................................................41</td></tr><tr><td colspan="2">37.5.</td><td>Disclosure .................................................................................................................41</td></tr><tr><td colspan="2">37.6.</td><td>Retention and Destruction........................................................................................41</td></tr><tr><td colspan="2">37.7.</td><td>Privacy Incidents and Grievances .............................................................................41</td></tr><tr><td>38.</td><td colspan="2">Responsible Parties.........................................................................................................41</td></tr></tbody></table>
+<h2>1. Introduction</h2>
+<p>Godrej Industries Limited and Associate Companies (GILAC) intends to follow process-based approach to design, implement, improve and maintain information security across all group companies. GILAC looks at information security as a strategic issue and has therefore set up a Group Chief Information Security Officer (CISO) role to be primarily responsible for implementing and monitoring the GILAC's information security policies &amp; processes. This entails creation of a framework which will govern the entire information security aspect.</p>
+<p>Information Security is the protection of Information and Information Assets, from a wide range of threats in order to safeguard business and profits. It is the practice of defending information from unauthorized access, use, disclosure, disruption, modification, perusal, inspection, recording or destruction.</p>
+<p>Information Security Management System (ISMS) is an overall management system, based on a business risk  approach,  to  establish  implement,  operate,  monitor,  review,  maintain  and  improve  information security. ISMS is a systematic approach to manage sensitive company information so that it remains secure. It encompasses People, Process and Technology.</p>
+<p>It provides the following benefits to GILAC:</p>
+<ul>
+<li style="list-style-type: '· ';">Protects the GILAC's information assets</li>
+<li style="list-style-type: '· ';">Manages and minimizes risk exposure</li>
+<li style="list-style-type: '· ';">Enhances customer satisfaction that improves customer retention</li>
+<li style="list-style-type: '· ';">Builds a culture of security</li>
+<li style="list-style-type: '· ';">Keeps confidential information secure</li>
+<li style="list-style-type: '· ';">Allows secure exchange of information</li>
+<li style="list-style-type: '· ';">Ensures meeting legal obligations</li>
+<li style="list-style-type: '· ';">Provides consistency in the delivery of service or product</li>
+</ul>
+<h2>1.1. Five design principles for Security at GILAC</h2>
+<ul>
+<li style="list-style-type: '· ';">Information Security is everyone's business</li>
+<li style="list-style-type: '· ';">Ensure all regulatory requirements are fulfilled - in compliance and in spirit</li>
+<li style="list-style-type: '· ';">Ensure Segregation of duties (e.g. design/ implementation v/s validate)</li>
+<li style="list-style-type: '· ';">Zero Trust in all aspects of Information Access</li>
+<li style="list-style-type: '· ';">Inculcate a strong Security mind-set</li>
+</ul>
+<h2>1.2. General Requirements of ISMS</h2>
+<p>People, process, and technology are critical to GILAC for the conduct of its operations. By establishing, documenting, implementing, monitoring, reviewing and maintaining ISMS, GILAC has greater confidence in its personnel. Also, the information security framework offers better assurance to its business partners and customers.</p>
+<h2>1.3. Scope of ISMS</h2>
+<p>Information Security Policy is applicable to:</p>
+<ul>
+<li style="list-style-type: '· ';">All  employees,  contractors,  third-parties,  outsourced  partners  and  personnel  associated  with GILAC whether in India or out of India.</li>
+<li style="list-style-type: '· ';">All information Assets which include, but are not limited to: software assets, physical assets, paper assets,  service  assets,  people  assets  and  assets  that  are  physically  or  electronically  stored, processed and/or transmitted by any of the aforesaid types of assets.</li>
+<li style="list-style-type: '· ';">Godrej Industries Limited and Associate Companies (GILAC) includes the following entities:</li>
+<li>o Godrej Industries Limited (GIL)</li>
+<li>o Ensemble Holdings and Finance Limited (EHFL)</li>
+<li>o Godrej Consumer Products Limited (GCPL)</li>
+<li>o Godrej Agrovet Limited (GAVL)</li>
+<li>o Godrej Tyson Food Limited (GTFL)</li>
+<li>o ASTEC Lifesciences Ltd (ASTEC)</li>
+<li>o Creamline Dairy Products Limited (CDPL)</li>
+<li>o Godrej Properties Limited (GPL)</li>
+<li>o Godrej Housing Finance Limited (GHFL)</li>
+<li>o Godrej Finance Limited (GFL)</li>
+<li>o Godrej Capital Limited (GCL)</li>
+<li>o Pyxis Holdings Limited (PHL)</li>
+<li>o Godrej Investment Adviser's Private Limited (GIAPL)</li>
+</ul>
+<h2>1.4. Context of the organization</h2>
+<p>GILAC are a group of companies within Godrej Group. GILAC has significant interests in consumer goods, real estate, agriculture, chemicals and financial services through its subsidiary and associate companies, across 18 countries. The combined market cap of GILAC's publicly listed entities is in excess of USD 15 billion. Ranked as the 2nd most trusted Indian brand, an annual revenue of USD 5 billion, and an estimated 1.1 billion customers across the world that use one or another Godrej product every day, the Godrej Group is amongst India's most diversified and trusted conglomerates.</p>
+<p>GILAC intends to manage its internal and external issues that may affect the information security objectives of the Company. These issues include but are not limited to the following:</p>
+<ul>
+<li style="list-style-type: '· ';">Compromise in confidentiality, integrity and availability of information</li>
+<li style="list-style-type: '· ';">Non-compliance to legal, regulatory and contractual obligations</li>
+<li style="list-style-type: '· ';">Risks involved in online business</li>
+<li style="list-style-type: '· ';">Third party risks with respect to information security (i.e. Outsourced vendors, contractors, IT and cloud services, suppliers, etc.)</li>
+</ul>
+<p>GILAC identifies all the relevant interested parties i.e. Senior Management, employees, vendors, contractors, service providers, suppliers, customers, legal and regulatory authorities, etc. through risk</p>
+<p>assessment exercise and also ensures that needs and expectations of these parties are also taken into consideration.</p>
+<h2>2. Policy</h2>
+<p>GILAC has documented an Information Security Policy (ISMS Policy, this document) that outlines all the information security objectives to be met by GILAC. The information security policy of GILAC addresses several domains including security at people, technology and process levels. Also, there are supporting process and procedure documents available for various aspects of information security.</p>
+<p>The Information Security policy of GILAC shall be reviewed and updated at least annually or at major changes and communicated to all the users in the organization. In addition to the internal stakeholders, relevant sections of the ISMS Policy may be shared with external parties, on approval from CISO. The policy ensures that GILAC's information is protected and provides assurance to GILAC's customers and business partners.</p>
+<p>The policy statement is as follows:</p>
+<p>Information assets are important business assets to GILAC and needs to be appropriately protected in order  to  preserve  trust  and  confidence  of  customers,  Business  partners  and  regulatory  authorities  in GILAC, ensure business continuity and maximize return on investments and business opportunities.</p>
+<p>At  GILAC,  the  management  views  information  security  as  a  critical  business  driver.  Management understands  the  business  risks  associated  with  ineffective  information  security  management.  The management  at  GILAC  is  committed  to  the  governance,  implementation,  systematic  operation, maintenance and improvement of the Information Security Management System (ISMS). The management expressly supports the following activities associated with effective information security management:</p>
+<ul>
+<li style="list-style-type: '· ';">Information Risk identification and their treatment to acceptable levels or risks</li>
+<li style="list-style-type: '· ';">Establishing information security policy and procedures.</li>
+<li style="list-style-type: '· ';">Compliance with statutory and regulatory requirements</li>
+<li style="list-style-type: '· ';">Establishing  roles  and  responsibilities  for  critical  activities  associated  with  information security management.</li>
+<li style="list-style-type: '· ';">Providing sufficient resources to develop, implement, operate, and maintain the ISMS.</li>
+<li style="list-style-type: '· ';">Periodic review of Information Risk &amp; ISMS and its management</li>
+<li style="list-style-type: '· ';">Conduct necessary programs for creating and increasing awareness about ISMS.</li>
+<li style="list-style-type: '· ';">Achieve global standards in Information Security Management.</li>
+</ul>
+<h2>3. Objectives</h2>
+<p>The objectives of the GILAC Information Security policy are:</p>
+<ul>
+<li style="list-style-type: '· ';">To strengthen internal control and prevent threats to the GILAC's information, thereby ensuring the appropriate protection of information assets of GILAC through regular monitoring.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">To ensure the confidentiality, integrity and availability of information assets of GILAC through maintenance of asset registers and risk assessment.</li>
+<li style="list-style-type: '· ';">To  continually  strengthen  and  improve  the  overall  capabilities  of  the  Information  Security Management System of the GILAC. This shall be assessed based security metrics designed for the organization and risk treatment methodology.</li>
+</ul>
+<p>GILAC  tracks  the  performance  of  its  Information  Security  objectives  and  effectiveness  of  Information Security management system through defined Key Performance Indicators (KPIs). Also it reviews, monitors and reports the same to senior management on periodic basis and takes appropriate corrective action.</p>
+<h2>4. Consequence Management and Non-Compliance</h2>
+<ul>
+<li style="list-style-type: '· ';">All violations of security policies, standards and/or guidelines are subject to disciplinary action. The  specific  disciplinary  action  depends  upon  the  nature  of  the  violation,  the  impact  of  the violation on informational assets and related facilities, etc. Violations will be handled as per the existing HR processes and could range from verbal reprimand, to termination of employment/contract and/or legal action.</li>
+<li style="list-style-type: '· ';">If a department or function is unable to comply with any requirements detailed within this policy, an exception shall be obtained. Such exceptions shall be documented and approved by the CISO or the Information Security Council indicating the rationale for the exception and the related risks.</li>
+</ul>
+<h2>5. Leadership and Commitment</h2>
+<h2>5.1 Security Organizational Structure</h2>
+<p>GILAC's top management demonstrates leadership and commitment with respect to Information Security Management.  by  delegating  responsibilities  to  the  Information  Security  Council.  The  organizational structure for Information Security comprises of four groups namely</p>
+<ul>
+<li style="list-style-type: '· ';">Steering Committee</li>
+<li style="list-style-type: '· ';">Management Committee</li>
+<li style="list-style-type: '· ';">GILAC Information Security Council</li>
+<li style="list-style-type: '· ';">Information Security Task Force</li>
+</ul>
+<p>The organisation structure for Information Security is given as below:</p>
+<h2>5.2 Roles &amp; Responsibilities</h2>
+<h2>GILAC Steering Committee</h2>
+<p>Steering Committee comprises of below core members:</p>
+<ul>
+<li style="list-style-type: '· ';">Global CIO</li>
+<li style="list-style-type: '· ';">GMC Members</li>
+<li style="list-style-type: '· ';">Corporate Audit Head</li>
+</ul>
+<p>Steering Committee is responsible for discussing ongoing and new GILAC wide IT &amp; Security initiatives, approval of these initiatives, approval of budget, approval and monitoring of projects, approval of changes to the organization structure and analyzing the IT &amp; Security plans.</p>
+<h2>GILAC Information Security Council</h2>
+<p>Information Security Council is responsible for providing strategic inputs to the GILAC Steering Committee with regards to the Group wide IT and Security initiatives. It is also responsible for managing GILAC's cyber security posture by ensuring compliance to defined policies and procedures. The GILAC information Security Council comprises of:</p>
+<ul>
+<li style="list-style-type: '· ';">Group HR Head: - Ensure compliance to GILAC's policies and procedures by incorporating cyber security practices, and guidelines across the HR function.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Corporate Audit Head: - Ensure the control objectives, controls, processes and procedures of GILAC  Information  Security  Management  System  are  in  conform  to  the  standard,  effectively implemented, working as expected, and properly maintained.</li>
+<li style="list-style-type: '· ';">Group CISO: - Ensure compliance to GILAC's policies and procedures across all Business Units, ensure  updating  of  Cyber  Security  policies  and  procedures  according  to  changing  threat landscape,  facilitate  Cyber  Security  awareness  initiatives  across  GILAC  and  its  customers, merchants and agents, managing the Group Security Operations Center</li>
+<li style="list-style-type: '· ';">Corporate IT Head: - Ensure compliance to GILAC's policies and procedures by incorporating cyber security  practices,  and  guidelines  in  various  stages  of  IT  development,  implementation, operation and retirement across the organization.</li>
+<li style="list-style-type: '· ';">Corporate Legal Head: - Ensure compliance to legal and regulatory requirements with respect to Information Security and IT across all Business Units, Advise on legal and contractual agreements with customers and third-party vendors.</li>
+</ul>
+<h2>Management Committee (MC)</h2>
+<p>Each BU (Business Unit) has its own 'Management committee' comprising of :</p>
+<ul>
+<li style="list-style-type: '· ';">BU Head</li>
+<li style="list-style-type: '· ';">BU HR Head</li>
+<li style="list-style-type: '· ';">BU Finance Head</li>
+<li style="list-style-type: '· ';">BU IT Head</li>
+<li style="list-style-type: '· ';">Other BU Functional Heads</li>
+</ul>
+<p>Management Committee is responsible for:</p>
+<ul>
+<li style="list-style-type: '· ';">Ensure compliance to GILAC's policies and procedures by incorporating cyber security practices, and guidelines in various stages of IT development, implementation, operation and retirement across resp Business Unit.</li>
+<li style="list-style-type: '· ';">To oversee risk management framework to identify and deal with financial, model, operational, information security and cyber risks, and risks associated with the strategic direction, new products and change initiatives of the BU.</li>
+<li style="list-style-type: '· ';">The oversight of risk appetite and risk tolerance appropriate to each BU</li>
+<li style="list-style-type: '· ';">To review the BU's risk policies, risk reports and breaches of risk tolerances and policies</li>
+<li style="list-style-type: '· ';">To review the effectiveness of the BU's risk control/mitigation tools and risk management functions</li>
+<li style="list-style-type: '· ';">To monitor the effectiveness of controls across key risk types and controls to manage regulatory obligations and compliance risks across key functions</li>
+</ul>
+<h2>Information Security Task Force</h2>
+<p>Information Security Task Force is responsible for implementation of GILAC policies and procedures. The GILAC Information Security Task Force comprises of:</p>
+<ul>
+<li style="list-style-type: '· ';">BU SPOCs: - Responsible for implementation of GILAC policies and procedures by incorporating cyber security  practices,  and  guidelines  in  various  stages  of  IT  development,  implementation, operation and retirement across resp Business Units.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">BU HR: - Responsible for implementation of GILAC's policies and procedures by incorporating cyber security practices, and guidelines across the HR function.</li>
+<li style="list-style-type: '· ';">Cyber Security Team: - Development and ongoing maintenance of cyber security policies and procedures; Identify, access and monitor cyber security incidents; conduct cyber security related awareness campaigns across GILAC; Identification and mitigation of Cyber Security vulnerabilities.</li>
+<li style="list-style-type: '· ';">Audit Team: - Conduct internal audits and vendor/third-party assessments to ensure the control objectives,  controls,  processes  and  procedures  of  GILAC  Information  Security  Management System  are  in  conform  to  the  standard,  effectively  implemented,  working  as  expected,  and properly maintained.</li>
+<li style="list-style-type: '· ';">IT Team: - Responsible for implementation of GILAC's policies and procedures across the entire GILAC IT infrastructure.</li>
+</ul>
+<h2>6. Contacts with relevant authorities</h2>
+<ul>
+<li style="list-style-type: '· ';">The organization shall identify when and by whom authorities (e.g. law enforcement, regulatory bodies,  supervisory  authorities)  should  be  contacted  and  how  identified  information  security incidents should be reported in a timely manner.</li>
+<li style="list-style-type: '· ';">Contacts with authorities shall also be used to facilitate the understanding about the current and upcoming expectations of these authorities (e.g. applicable information security regulations).</li>
+</ul>
+<h2>7. Risk Management</h2>
+<ul>
+<li style="list-style-type: '· ';">Risk  assessment exercise shall be conducted at least annually to identify and evaluate various information security risks faced by GILAC and to prioritize the required controls based on the business impact and the likelihood of risk occurring.</li>
+<li style="list-style-type: '· ';">Respective BUs will be responsible for identifying risks, developing a plan, tracking and treating the risks for their resp assets.</li>
+<li style="list-style-type: '· ';">Business Head shall be responsible for signing off any identified risks that are accepted.</li>
+<li style="list-style-type: '· ';">Status of Identified risks and corresponding treatment plan shall be reviewed by the management committee on annually.</li>
+</ul>
+<h2>8. Training and Awareness</h2>
+<ul>
+<li style="list-style-type: '· ';">Online training and awareness programs shall be conducted annually for all employees based on current  Cyber  Security  Threat  Landscape.  Relevant  records  shall  be  maintained  for  reporting purpose.</li>
+<li style="list-style-type: '· ';">Mandatory  online  trainings  shall  be  assigned  to  newly  joined  employees  with  respect  to organizations polices, standards and guidelines. Trainings with respect to cyber security awareness shall also be mandated.</li>
+<li style="list-style-type: '· ';">Organization shall identify and assign role-based security trainings for roles that require specific knowledge and expertise as part of their day-to-day operations.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Completion and attendance shall be mandated where required and possible consequences shall be defined for non-adherence by the respective BU HR Teams.</li>
+<li style="list-style-type: '· ';">An overall assessment of the employee's understanding where required shall be conducted at the end of an awareness, education, and training course to test knowledge transfer.</li>
+</ul>
+<h2>9. Documentation</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall  document  all  the  information  required  by  the  standards,  and  requirements  of  its Information Security Policies which are necessary for the effectiveness of the information security management system.</li>
+<li style="list-style-type: '· ';">All supporting policies and procedures shall be reviewed annually and revision history shall be maintained.</li>
+<li style="list-style-type: '· ';">All the documented information of GILAC in paper or electronic form shall be created and updated appropriately with identifications and descriptions such as title, date, author, version no., change details and review frequency.</li>
+<li style="list-style-type: '· ';">All the documented information shall be available when needed. The distribution, access, retrieval, use and storage of information documents shall be properly maintained and monitored.</li>
+</ul>
+<h2>10. Internal audit</h2>
+<ul>
+<li style="list-style-type: '· ';">Annual Internal Audits shall be carried out to provide information on whether ISMS conforms to GILAC's own requirements for its Information Security, the requirements of the standards and to evaluate effectiveness of the IT general controls. Corrective actions shall be taken in case of any non-conformity to the requirements.</li>
+<li style="list-style-type: '· ';">The effectiveness of the corrective action taken shall be reviewed and changes shall be made to the information security management system, if required.</li>
+<li style="list-style-type: '· ';">All the information documents related to the detection of non-conformity and rectifying shall be retained as evidence.</li>
+<li style="list-style-type: '· ';">The  GILAC  shall  plan,  establish,  implement  and  maintain  an  audit  program  that  takes  into consideration the importance of the processes concerned and results of previous audits.</li>
+<li style="list-style-type: '· ';">The audit criteria and scope shall be defined. Such audits need to be performed as per the Internal Audit Plan approved by the Audit Head. Information Security Council can consider the internal audit findings and recommend the action plan to remediate the same.</li>
+<li style="list-style-type: '· ';">The Audit Head reports the findings and the remediation steps recommended to resp BU IT Heads and the Head of Corporate IT.</li>
+</ul>
+<h2>11. Management Review</h2>
+<p>Information Security Council shall review the Information Security posture of the GILAC periodically to assess adequacy and effectiveness of the information security policy. Members of this committee shall review the following:</p>
+<ul>
+<li style="list-style-type: '· ';">Information incidents</li>
+<li style="list-style-type: '· ';">Feedback on information security performance</li>
+<li style="list-style-type: '· ';">Information security gaps and risk assessments outputs</li>
+<li style="list-style-type: '· ';">Security improvement plan</li>
+<li style="list-style-type: '· ';">Status of corrective actions implemented</li>
+</ul>
+<h2>12. BYOD Security Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Any  GILAC  Staff,  intern  who  intends  to  access  GILAC's  infrastructure  shall  be  allowed  only Mobile/Tablet Devices. Any service provider and third-party contractor, who intends to access Godrej Corp IT's infrastructure shall be allowed only 1 mobile/tablet device.</li>
+<li style="list-style-type: '· ';">BYOD program does not support personal devices (mobiles/tablets) using customized, 'rooted', or 'jail broken' versions of operating systems. The device must have a licensed version of the Operating System installed.</li>
+<li style="list-style-type: '· ';">Users shall erase all information and software related to any previous employment, before using their device under this policy for the first time.</li>
+<li style="list-style-type: '· ';">In case, the device user is transferred, or retired / contract expired, or device is lost, the user shall notify IT team for de-registration of device and wiping off entire GILAC data stored on the mobile device (smart phones, tablets, etc.)</li>
+<li style="list-style-type: '· ';">IT Team shall at a minimum ensure that adequate security measures are implemented to ensure compliance to GILAC ISMS Policy.</li>
+<li style="list-style-type: '· ';">Access to the GILAC's network and business applications shall be restricted to only approved devices that meet a predetermined minimum-security configuration.</li>
+<li style="list-style-type: '· ';">Users are advised to keep their personal data separate from business data on their personally owned device in separate directories to reduce the possibility of disclosure.</li>
+<li style="list-style-type: '· ';">Organization shall have the right to seize and forensically examine any personally owned device believed to contain, or to have contained, GILAC's data where necessary for investigatory or control purposes.</li>
+<li style="list-style-type: '· ';">GILAC IT team shall have the right to enforce technical security controls such as access control, malware protection software and encryption.</li>
+<li style="list-style-type: '· ';">By acceptance of the BYOD policy, employees agree to disclosure and/or monitoring of device internet usage.</li>
+<li style="list-style-type: '· ';">Users  of  employee-owned devices shall be subject to a comprehensive and targeted security awareness campaign so that they clearly understand and can comply with the acceptable use policy.</li>
+<li style="list-style-type: '· ';">Users (GILAC Staff, interns, service providers and third-party contractors etc.) at a minimum shall ensure that they:</li>
+<li style="list-style-type: '1. ';">Operate the device in compliance with Information Security Policy.</li>
+<li style="list-style-type: '2. ';">Users  shall  obtain  written  approval  from  their  respective  Supervisor/  Head  of  the department to access confidential or classified information using external devices.</li>
+</ul>
+<ol>
+<li style="list-style-type: '3. ';">Exercise extra care to preclude the compromise, loss, or theft of the device, especially during travel.</li>
+<li style="list-style-type: '4. ';">Immediately  contact  GILAC  IT  Team  and  their  immediate  Supervisor/  Head  of  the department if the mobile device is lost, stolen, damaged, destroyed, compromised, or non-functional.</li>
+<li style="list-style-type: '· ';">Control wireless network and service connectivity: Wi-Fi connectivity shall be turned off when not in  use,  and  users  shall  only  connect  their  devices  to  trusted  networks.  Devices  shall  be  set  to prompt users before connecting to networks so that users aren't unknowingly connecting to unsafe networks.</li>
+<li style="list-style-type: '· ';">Never  store  confidential  data  on  a  device:  Users  shall  avoid  saving  any  sensitive  data  like password, personal, financial data on their devices. This precaution ensures that confidential data is safe even if a device gets compromised.</li>
+<li style="list-style-type: '· ';">Employees shall not install freely available mobile applications from unauthorized sites which may collect data on the device.</li>
+<li style="list-style-type: '· ';">Employee shall never access or use GILAC systems or company data through a device in a way that breaches any of other GILAC policies.</li>
+<li style="list-style-type: '· ';">On last working day of an employee, all company data (including work emails), and any software applications provided for business purpose, shall be removed from the device. If this cannot be achieved  remotely,  the  device  must  be  submitted  to  IT  Department  for  wiping  and  software removal.</li>
+</ol>
+<h2>13. Acceptable Use Policy</h2>
+<p>Refer 'Information Systems Acceptable Use Policy'</p>
+<h2>14. Human Resource Security</h2>
+<h2>14.1. During Recruitment</h2>
+<ul>
+<li style="list-style-type: '· ';">HR Team shall be responsible for performing background verification checks prior to recruitment of employees or engagement of staff on contract basis.</li>
+<li style="list-style-type: '· ';">Information  security  responsibilities  for  all  staff  and  third-party  personnel  shall  be  specified  in terms and conditions of employment.</li>
+<li style="list-style-type: '· ';">All staff and third-party personnel shall sign the Code of Conduct at the time of joining.</li>
+<li style="list-style-type: '· ';">The  contractual  agreements  with  employees  and  contractors  shall  state  their  and  GILAC's responsibilities for information security. Terms and conditions of employment shall:</li>
+<li style="list-style-type: '1. ';">state that information security responsibilities extend outside normal working hours and premises and continue after employment has ended.</li>
+<li style="list-style-type: '2. ';">explain the employee's legal responsibilities and rights</li>
+<li style="list-style-type: '3. ';">include a non-disclosure / confidentiality clause</li>
+</ul>
+<h2>14.2. During Employment</h2>
+<ul>
+<li style="list-style-type: '· ';">All staff and third-party personnel shall agree to perform their security responsibilities and comply with the requirements specified in the security policies.</li>
+<li style="list-style-type: '· ';">All staff and third-party personnel shall be responsible for protection of any sensitive information and assets assigned to them.</li>
+<li style="list-style-type: '· ';">All staff and third-party personnel shall use information processing systems and data residing on systems for authorized business purposes only.</li>
+<li style="list-style-type: '· ';">All  staff  and  third-party  personnel  shall  report  any  suspected  information  security  incident  or weaknesses to his/her reporting manager and Cyber Security team.</li>
+<li style="list-style-type: '· ';">The Cyber Security team shall ensure relevant cyber security awareness education and training (upon hire as part of induction and subsequently periodic) for all staff of GILAC and where relevant, third-party personnel.</li>
+<li style="list-style-type: '· ';">The Cyber Security team shall monitor, review and measure the effectiveness of cyber security awareness through internal compliance and awareness tests.</li>
+<li style="list-style-type: '· ';">The Business IT Head shall report all information security breaches committed by any employee to the HR head for taking necessary disciplinary actions against them.</li>
+</ul>
+<h2>14.3. Termination and Change of employment</h2>
+<ul>
+<li style="list-style-type: '· ';">Information security responsibilities and duties that remain valid after termination or change of employment shall be defined, communicated to the employee or contractor and enforced.</li>
+<li style="list-style-type: '· ';">All physical and logical access privileges shall be revoked immediately when an authorized user no longer requires access to information or systems as part of their job, or when they leave GILAC. In case access needs to be retained, the same shall be approved by the HR team and resp BU SPOC.</li>
+<li style="list-style-type: '· ';">In the case of a contractor provided through an external party, the termination process is undertaken by the external party in accordance with the contract between the organization and the external party.</li>
+<li style="list-style-type: '· ';">Upon termination of employment/contract/agreement, internal staff and third-party personnel shall:</li>
+<li style="list-style-type: '1. ';">Return Assets that belong to GILAC</li>
+<li style="list-style-type: '2. ';">Confirm that they have destroyed all copies of information owned by GILAC.</li>
+<li style="list-style-type: '· ';">The activities performed by a staff / third party may be subject to additional monitoring at the time  of  termination  or  change  of  employment,  on  communication  from  respective  Business representative (BU Head or BU SPOC). The department representative shall assume ownership and responsibility for monitoring related activities in co-ordination with IT.</li>
+</ul>
+<h2>15. Asset Management Policy</h2>
+<p>There shall be documented standards and procedures for managing the asset lifecycle.</p>
+<h2>15.1. Ownership of Information Assets</h2>
+<ul>
+<li style="list-style-type: '· ';">All Information assets (hardware and software) shall be identified and have an asset owner.</li>
+<li style="list-style-type: '· ';">An asset custodian shall oversee and implement necessary safeguards to protect the assets per the classification level defined by the asset owner.</li>
+<li style="list-style-type: '· ';">Asset reconciliation and verification shall be performed on bi-annual basis.</li>
+</ul>
+<h2>15.2. Asset Register</h2>
+<ul>
+<li style="list-style-type: '· ';">Business heads or Business SPOCs shall develop and maintain an asset register containing all assets within their business function.</li>
+<li style="list-style-type: '· ';">The asset register shall contain at a minimum, the asset type, asset location, owner, custodians and name of the function/processes that use those assets.</li>
+<li style="list-style-type: '· ';">The asset register shall also maintain the CIA rating for all assets and accordingly label them as per the Asset Classification Scheme. (Refer Asset Management procedure for asset classification categories).</li>
+<li style="list-style-type: '· ';">Asset rating shall be reviewed on periodically as part of annual Risk Assessment exercise.</li>
+</ul>
+<h2>15.3. Information Classification and Handling</h2>
+<ul>
+<li style="list-style-type: '· ';">The Information Classification scheme shall be used to define an appropriate level of protection or special handling required for an information asset.</li>
+<li style="list-style-type: '· ';">The level of protection shall be commensurate with the classification level of the data.</li>
+<li style="list-style-type: '· ';">The classification of the information shall be consistent with the business value of the data.</li>
+<li style="list-style-type: '· ';">Information  shall  be  classified  using  GILAC's  Information  Classification  Scheme  as  tabulated below:</li>
+</ul>
+<h2>Information Classification Guidelines</h2>
+<table><tbody><tr><th>Classification Category</th><th>Category Description</th></tr><tr><td>CONFIDENTIAL</td><td>This classification applies to the most critical business information assets, which are intended strictly for use within GILAC for limited authorized users. Its unauthorized disclosure could adversely impact its business, its shareholders, its business partners and/ or its customers, leading to legal and financial repercussions and adverse public opinion.</td></tr><tr><td>RESTRICTED</td><td>This classification applies to any sensitive business information assets, which are intended for use within GILAC for some of the authorized users. Its unauthorized disclosure could adversely impact its business, its shareholders, its business partners, its employees and/or its customers</td></tr><tr><td>INTERNAL</td><td>This classification applies to information assets that are specifically meant for all employees of GILAC. While its unauthorized disclosure is against the policy, it is not expected to seriously or adversely impact the business, employees, customers, stockholders and/ or business partners.</td></tr></tbody></table>
+<table><tbody><tr><td>PUBLIC</td><td>This classification applies to information assets, which has been explicitly approved by the management for release to the public.</td></tr></tbody></table>
+<h2>Electronic Information Handling Guidelines</h2>
+<table><tbody><tr><th>Usage</th><th>CONFIDENTIAL</th><th>RESTRICTED</th><th>INTERNAL</th><th>PUBLIC</th></tr><tr><td>Creation/ Obtainment of Information</td><td>Shall be labelled at the time of creation/obtainment</td><td>Shall be labelled at the time of creation/ obtainment</td><td>Shall be labelled at the time of creation/ obtainment</td><td>Shall be labelled at the time of creation/ obtainment</td></tr><tr><td>Storage on static media</td><td>Shall be protected by password</td><td>Shall be protected by password</td><td>No Special requirements</td><td>No Special requirements</td></tr><tr><td>Storage on removable media</td><td>Shall be protected by password</td><td>Shall be protected by password</td><td>No Special requirements</td><td>No Special requirements</td></tr><tr><td>Printing and duplication</td><td>Printing permitted with explicit business need and approval from Business owner and infosec teams.</td><td>Printing permitted with explicit business need and approval from department head.</td><td>Printing permitted</td><td>No Special requirements</td></tr><tr><td>Read/Update/ Delete access to information</td><td>Shall be restricted to Information owners, relevant authority of groups</td><td>Shall be restricted to Information owners, relevant authority of groups</td><td>Access to delete/update information shall be restricted to authorized individuals, relevant authority or groups. Read access shall be provided to all users within the company</td><td>Access to delete/update information shall be restricted to authorized individuals. No special requirements for read access</td></tr><tr><td>Transmission to internal email ID</td><td>Encryption or password protection is required as mandated by the Information Owner</td><td>Encryption or password protection is required as mandated by the Information Owner</td><td>No special requirements</td><td>No special requirements</td></tr><tr><td>Transmission to external email ID</td><td>Shall not be emailed unless authorized by Information owner.</td><td>Shall not be emailed unless authorized by Information owner</td><td>Shall not be emailed unless authorized by Information owner</td><td>No special requirements</td></tr></tbody></table>
+<table><tbody><tr><th>Usage</th><th>CONFIDENTIAL</th><th>RESTRICTED</th><th>INTERNAL</th><th>PUBLIC</th></tr><tr><td></td><td>Encryption or password protection is mandatory. While sending such data outside, reporting manager should be kept in Cc</td><td>Encryption or password protection is recommended</td><td></td><td></td></tr><tr><td>Disposal of Information</td><td>Shall be degaussed and destroyed if media is not to be reused in future</td><td>Shall be deleted from the media</td><td>Shall be deleted from the media</td><td>No special requirements</td></tr></tbody></table>
+<h2>Paper Information Handling Guidelines</h2>
+<table><tbody><tr><th>Usage</th><th>CONFIDENTIAL</th><th>RESTRICTED</th><th>INTERNAL</th><th>PUBLIC</th></tr><tr><td>Creation/ Obtainment of Information</td><td>Shall be labelled mandatorily at the time of creation/obtainment</td><td>Shall be labelled mandatorily at the time of creation/obtainment</td><td>No Special requirements</td><td>No Special requirements</td></tr><tr><td>Storage and Access</td><td>Shall be stored in appropriate location with restricted access Shall not be available to personnel without prior authorization from information owner</td><td>Shall be stored in appropriate location with restricted access Shall not be available to personnel without prior authorization from information owner</td><td>No Special requirements</td><td>Shall be available widely for public No Special requirements for storage</td></tr><tr><td>Duplication</td><td>Shall not be copied/scanned without permission from information owner Unattended coping/scanning should not be done</td><td>Unattended coping/scanning should not be done</td><td>Unattended coping/scanning should not be done</td><td>No Special requirements</td></tr><tr><td>Mailing</td><td>Mailing allowed as per permission of relevant authority or</td><td>Mailing allowed as per permission of relevant authority or</td><td>Mailing allowed as per permission of relevant</td><td>No special requirements</td></tr></tbody></table>
+<table><tbody><tr><th>Usage</th><th>CONFIDENTIAL</th><th>RESTRICTED</th><th>INTERNAL</th><th>PUBLIC</th></tr><tr><td></td><td>information owner only Classification marking shall be visible on the envelope.</td><td>information owner only Classification marking shall be visible on the envelope.</td><td>authority or information owner only Inter-office mailing of documents is permitted</td><td></td></tr><tr><td>Disposal of Information</td><td>Shall be shredded</td><td>Shall be shredded</td><td>Shall be shredded</td><td>No special requirements</td></tr></tbody></table>
+<h2>15.4. Asset Retention and Disposal</h2>
+<ul>
+<li style="list-style-type: '· ';">Information owners shall define types of records and their retention requirements.</li>
+<li style="list-style-type: '· ';">Records which are no longer active shall be archived for a period of time as set forth in the GILAC Data Retention Schedule.</li>
+<li style="list-style-type: '· ';">Information shall be disposed when no longer needed subject to its retention schedule and approval by asset owner.</li>
+<li style="list-style-type: '· ';">Hardware assets and electronic records shall be disposed in a secure manner in accordance with the Asset Disposal guidelines.</li>
+<li style="list-style-type: '· ';">All assets destroyed in compliance with this policy shall require 'e-waste certificate' to be retained as per defined policy.</li>
+<li style="list-style-type: '· ';">Prior to disposal of system devices like Hard Drives, RAMs, etc., the same shall be sanitized by use of techniques like degaussing, low-level formatting, or physical destruction to ensure that data cannot be reconstructed.</li>
+</ul>
+<h2>15.5. Media Handling</h2>
+<ul>
+<li style="list-style-type: '· ';">All media containing sensitive data shall be stored in a secure safe, which shall be fire resistant and free of toxic chemicals.</li>
+<li style="list-style-type: '· ';">Access to media library and media safe shall be restricted to authorized persons only.</li>
+<li style="list-style-type: '· ';">Prior to disposal of removable media, all data shall be securely deleted, or the media shall be destroyed.</li>
+<li style="list-style-type: '· ';">All incoming/outgoing media transfers shall be authorized and shall be checked against a gate pass.</li>
+<li style="list-style-type: '· ';">Removable media shall be scanned for malware/anti-virus prior to providing read/write access.</li>
+</ul>
+<h2>16. Access Control Policy</h2>
+<h2>16.1. User Access Management</h2>
+<ul>
+<li style="list-style-type: '· ';">A formal user registration and de-registration process shall be implemented to create user IDs and assign access privileges.</li>
+<li style="list-style-type: '· ';">A unique ID shall be assigned to each user of information system to hold them responsible for their actions. User Ids shall follow a standard naming convention for all computer systems to facilitate user identification. Naming conventions shall cover all end users, contractors, consultants and vendors.</li>
+<li style="list-style-type: '· ';">A single user shall not be assigned more than one user ID on the same information system.</li>
+<li style="list-style-type: '· ';">The administrator of Information systems shall not grant a user, access to any system without the authorization of the user's supervisor or manager.</li>
+<li style="list-style-type: '· ';">The supervisors 0r managers shall revoke access rights of users in a timely manner who have either changed their job function or have been terminated.</li>
+<li style="list-style-type: '· ';">Generic user IDs where necessarily required as an exception shall be assigned to a nominated user post approval from the respective Business Head or Business SPOC. The nominated user along with the Business head shall maintain the accountability, by whom, when and for what the generic ID is used.</li>
+<li style="list-style-type: '· ';">All vendor supplied default user IDs shall be disabled or removed where possible.</li>
+<li style="list-style-type: '· ';">GILAC systems to be scanned to identify orphan IDs, dormant IDs, unauthorized IDs, etc. on a periodically as part of quarterly ID validation process. Same need to be deleted if not required. Exception to be raised for IDs which need to be retained with proper business justification.</li>
+<li style="list-style-type: '· ';">Access to information and information technology resources shall be controlled, monitored, and authorized based upon user's job function, need-to-know and need-to-perform criteria.</li>
+<li style="list-style-type: '· ';">The access to specific functionalities in information systems and level of access required at the granular level of read, modify &amp; update, deletion shall be identified and documented. These requirements shall be translated into system profiles for the different classes of business users.</li>
+<li style="list-style-type: '· ';">Access privileges shall be assigned to a unique user ID that is mapped to an employee/Contractor based on individual's subscribed role, business need and security requirements.</li>
+<li style="list-style-type: '· ';">Role based access shall be provided based on the systems profiles defined by the system and business owners.</li>
+<li style="list-style-type: '· ';">The use of Group and shared IDs shall be restricted and if it is absolutely required to use shared IDs, mechanisms shall be established to ensure traceability/audit trails of usage to individual users.</li>
+<li style="list-style-type: '· ';">Request for change in the access right shall be documented and approved by the user's Manager or the respective Business SPOC.</li>
+<li style="list-style-type: '· ';">Audit trails for all requests for additions, modifications or deletions of individual accounts and access rights shall be maintained.</li>
+<li style="list-style-type: '· ';">Access rights shall be defined based on the least privilege principle and be approved by user's Manager or the respective BU SPOC.</li>
+<li style="list-style-type: '· ';">The access rights of all employees and external party users to information and information processing facilities shall be removed upon termination of their employment, contract or agreement, or adjusted upon change.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">User access shall be reviewed and access shall be disabled if the account is found to be inactive for a period of Ninety (90) days or more. If the same cannot be disabled, exception shall be taken from the CISO or the Information Security Council and same shall be maintained.</li>
+<li style="list-style-type: '· ';">IT Operations shall enable user account lockout after five (5) unsuccessful attempts to logon to the system.</li>
+<li style="list-style-type: '· ';">Users shall be required to re-authenticate themselves after a specific period of inactivity.</li>
+<li style="list-style-type: '· ';">System lock duration shall be set to a maximum period of 5 minutes in case of system inactivity.</li>
+<li style="list-style-type: '· ';">Access review for critical applications shall be done on quarterly basis.</li>
+</ul>
+<h2>16.2. Privilege Access Management</h2>
+<ul>
+<li style="list-style-type: '· ';">Privileged users must be authenticated using either two-step or two-factor authentication, wherever applicable. A quality password is required along with additional authentication such as biometric, tokens, OTP, authenticator, etc.</li>
+<li style="list-style-type: '· ';">The BU Head or BU SPOC shall approve the granting, modifications, and revocation of privilege accounts on respective information systems owned by that business unit.</li>
+<li style="list-style-type: '· ';">Documented approvals shall be appropriately stored and produced by BU SPOCs when requested for their resp BU assets.</li>
+<li style="list-style-type: '· ';">Privileges shall be assigned to user's identity.</li>
+<li style="list-style-type: '· ';">The use of privilege accounts such as root or administrator shall be discouraged.</li>
+<li style="list-style-type: '· ';">Controls to monitor and track activity of privilege accounts shall be implemented.</li>
+<li style="list-style-type: '· ';">The activity logs of privilege users have to be stored in remote systems to prevent tampering of these logs.</li>
+<li style="list-style-type: '· ';">Privileged access rights shall be reviewed monthly.</li>
+<li style="list-style-type: '· ';">When a privilege is granted on a temporary basis to a user, privileges shall be revoked after completion of that period.</li>
+<li style="list-style-type: '· ';">Changes to privileged accounts shall be logged.</li>
+</ul>
+<h2>16.3. Authentication Information Management</h2>
+<ul>
+<li style="list-style-type: '· ';">Authentication information such as passwords or personal identification numbers (PINs) generated automatically shall be non-guessable and unique.</li>
+<li style="list-style-type: '· ';">The identity of a user shall be verified prior to providing a new or temporary authentication information</li>
+<li style="list-style-type: '· ';">Authentication information, including temporary authentication information shall be transmitted to users in a secure manner (e.g. over an authenticated and protected channel) and the use of unprotected channels for this purpose shall be avoided.</li>
+<li style="list-style-type: '· ';">Randomly generated temporary passwords shall be provided to a new user initially and a password reset shall be enforced upon first login.</li>
+<li style="list-style-type: '· ';">Vendor default passwords shall be changed prior to use.</li>
+<li style="list-style-type: '· ';">Passwords shall be secured during transmission and storage.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Authentication information such as passwords shall be kept confidential and shall be shared only with authorized persons basis proper justification and approvals.</li>
+<li style="list-style-type: '· ';">The password policy shall address the following at the minimum:</li>
+<li style="list-style-type: 'i. ';">Password length should be a minimum of eight (8) characters for end users and ten (10) characters for privileged accounts.</li>
+<li style="list-style-type: 'ii. ';">Passwords should be complex, consisting of any 3 out of 4 characters lowercase, uppercase, numerals and special character</li>
+<li style="list-style-type: 'iii. ';">Users shall be forced to change the passwords after first logon.</li>
+<li style="list-style-type: 'iv. ';">Domain users shall be forced to change their passwords at least every 90 days. Passwords should automatically expire if not changed within 90 days. Expired passwords for end user accounts should result in a forced password change upon next sign in. Users should not use last 5 passwords (password history).</li>
+<li style="list-style-type: 'v. ';">Privileged account passwords must be changed at least once every 90 days. Privileged Account Passwords should automatically expire if not changed within 90 days. Expired passwords for Privileged Accounts should result in an account lockout.</li>
+<li style="list-style-type: 'vi. ';">Default system privileged accounts such as root and administrator accounts are configured with 'password never expire' and the password shall be vaulted.</li>
+</ul>
+<h2>16.4. User Responsibilities for Access Management</h2>
+<ul>
+<li style="list-style-type: '· ';">Users, contractors, consultants, etc. shall keep their passwords confidential and shall not share with any other individual.</li>
+<li style="list-style-type: '· ';">Users, contractors, consultants, etc. shall protect and/or report all unattended equipment appropriately.</li>
+</ul>
+<h2>16.5. Network Access Control</h2>
+<ul>
+<li style="list-style-type: '· ';">Appropriate interfaces shall be created to segregate GILAC network from the networks owned by other organization and public networks.</li>
+<li style="list-style-type: '· ';">Users shall only be provided with access to the services that they have been specifically authorized.</li>
+<li style="list-style-type: '· ';">Only authorized users shall be permitted to establish remote connections to the network using secure channels.</li>
+<li style="list-style-type: '· ';">An equipment identifier shall be used to authenticate all equipment connecting to the network.</li>
+<li style="list-style-type: '· ';">Users connecting to the network shall be authenticated and their access attempts shall be logged.</li>
+<li style="list-style-type: '· ';">The use of utility programs that might be capable of overriding system and application controls shall be restricted and tightly controlled.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">User sessions shall be disabled after 15 minutes of inactivity so as to limit the connection time to sensitive network.</li>
+<li style="list-style-type: '· ';">Vendor shall provide details of their employees who shall need access to GILAC network. Access shall be granted to only those vendor employees whose details have been provided to GILAC.</li>
+</ul>
+<h2>16.6. Application Access Control</h2>
+<ul>
+<li style="list-style-type: '· ';">Logical access to the application software shall be restricted to authorized users.</li>
+<li style="list-style-type: '· ';">Access to application functionalities shall be restricted based on business requirements.</li>
+<li style="list-style-type: '· ';">User access (except administrators) to data repositories shall be approved and recorded.</li>
+<li style="list-style-type: '· ';">Application accounts created for inter-application access shall not be used by individual users.</li>
+<li style="list-style-type: '· ';">Application Owners shall be responsible for management of access rights to their respect applications.</li>
+<li style="list-style-type: '· ';">Application access for critical applications shall be reviewed on a quarterly basis.</li>
+</ul>
+<h2>16.7. Segregation of Duties</h2>
+<ul>
+<li style="list-style-type: '· ';">Access profiles for critical applications shall be designed to avoid potential segregation of duties conflicts.</li>
+<li style="list-style-type: '· ';">SoD reviews to be conducted on quarterly basis to identify potential SoD conflicts.</li>
+</ul>
+<h2>16.8. Remote Access</h2>
+<ul>
+<li style="list-style-type: '· ';">Remote access shall not be provided to employees/vendors/contractors by default. Remote access to network shall require an appropriate management approval and a valid business need.</li>
+<li style="list-style-type: '· ';">Remote access request for third party vendor/consultant shall be raised by the GILAC employee responsible for the vendor /consultant engagement along with proper business justification. The request needs to be approved by BU SPOC and Cyber Security Manager.</li>
+<li style="list-style-type: '· ';">Remote user sessions shall be terminated after a maximum period of 15 minutes of inactivity.</li>
+<li style="list-style-type: '· ';">Unauthorized inbound and outbound connections to and from GILAC network shall be prohibited.</li>
+<li style="list-style-type: '· ';">Remote access to the network shall utilize approved VPN (Virtual Private Network) infrastructure and multi-factor authentication.</li>
+<li style="list-style-type: '· ';">All remote access to an internal network, whether through VPN, or other mechanism, shall be logged.</li>
+</ul>
+<h2>16.9. Access to third Party Users</h2>
+<ul>
+<li style="list-style-type: '· ';">The designated manager within GILAC shall authorize and supervise access requirements for non-employees.</li>
+<li style="list-style-type: '· ';">Basic information Security principles such as least privilege, Separation of duties and defense in depth shall be applied.</li>
+</ul>
+<h2>17. Physical &amp; Environmental Security Policy</h2>
+<h2>17.1. Physical Security</h2>
+<ul>
+<li style="list-style-type: '· ';">Physical access to offices and information processing facilities shall be properly controlled for employees, contractors and visitors to prevent unauthorized access or damage to information systems.</li>
+<li style="list-style-type: '· ';">Physical access provided to secure areas such as the Data Centers, Network room, Server rooms, Disaster recovery sites etc. to employees/vendors/visitors shall be reviewed on quarterly basis.</li>
+<li style="list-style-type: '· ';">Entry and exit to the premises shall be logged and monitored. In case of any major deviations/ suspected events noted, the same shall be notified to appropriate authorities.</li>
+<li style="list-style-type: '· ';">Facilities shall be classified into zones and physical safeguards for each zone shall be designed and implemented at a level appropriate to the classification of the zone.</li>
+<li style="list-style-type: '· ';">Appropriate physical security controls and monitoring capabilities shall be employed to detect and prevent disruptions to the information processing facilities.</li>
+<li style="list-style-type: '· ';">Offices and information processing facilities shall be manned reception area to control physical access to resp premises.</li>
+<li style="list-style-type: '· ';">CCTV cameras shall be installed at key locations of premises. Ensure that due diligence is exhibited during CCTV monitoring. CCTV recordings shall be retained for least for 1 month for Primary datacenter. For GodrejOne, recordings shall be retained at least for 10 days.</li>
+<li style="list-style-type: '· ';">Visitor details shall be verified and entered into a visitor register/ visitor management system. Details regarding laptops, pen drives, CDs/ DVDs, floppies etc. shall be entered.</li>
+<li style="list-style-type: '· ';">Every visitor shall be provided with a visitor badge and the visitor shall display the badge at all times in the GILAC premises.</li>
+<li style="list-style-type: '· ';">Access cards provided to vendors/consultants shall have limited floor access. Cards unused for more than 30 days shall be disabled.</li>
+<li style="list-style-type: '· ';">Visitor/Vendor personnel/third party personnel shall be escorted at all times inside the Datacenter or facilities housing critical information systems or equipment.</li>
+<li style="list-style-type: '· ';">All employees and visitors shall display the access card at all times on premises. Also, all employees and visitors shall use their access cards (employee identification badges, visitor badges etc.) to obtain entry and exit to the premises.</li>
+<li style="list-style-type: '· ';">Monitoring events and records for physical access (eg. access cards, biometric access, etc.) shall be stored for a minimum of three months or longer based on business and legal requirements.</li>
+</ul>
+<h2>17.2. Equipment Security</h2>
+<ul>
+<li style="list-style-type: '· ';">Equipment shall be secured from potential threats to prevent loss, damage, theft or compromise.</li>
+<li style="list-style-type: '· ';">All cables, including power and telecommunication network cables shall be protected from damage or unauthorized interception.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">IT/ Network function shall ensure that any networking equipment, gateways, Wireless access points, telecommunication lines and cabling racks/ distribution points in the office area are not physically accessible to people other than IT/ Technical function.</li>
+<li style="list-style-type: '· ';">It shall be ensured that all areas, where loading and unloading of items are done, are monitored.</li>
+<li style="list-style-type: '· ';">Security personnel shall maintain an inward and outward register for all the incoming and outgoing materials.</li>
+<li style="list-style-type: '· ';">Delivery and loading areas shall be isolated and kept away from information resources. Delivery or loading shall not be permissible in restricted areas.</li>
+<li style="list-style-type: '· ';">All incoming IT equipment shall be inspected for hazardous and combustible materials at entry point to ensure the same is not allowed inside the premises.</li>
+</ul>
+<h2>17.3. Environmental Security</h2>
+<ul>
+<li style="list-style-type: '· ';">Air-conditioning systems shall be installed to support information systems and equipment like server rooms, network rooms, and disaster recovery sites.</li>
+<li style="list-style-type: '· ';">Smoke detectors, fire detection and fire suppression equipment shall be installed in office premises and other sensitive areas for protection against any fire incidents.</li>
+<li style="list-style-type: '· ';">Necessary fire drills and trainings shall be conducted for all employees on a periodic basis in case of any emergency. Emergency evacuation drills shall also be conducted to ensure emergency evacuation.</li>
+<li style="list-style-type: '· ';">Appropriate temperature and humidity controls shall be implemented, monitored and maintained.</li>
+<li style="list-style-type: '· ';">Uninterruptible power supply (UPS) systems and generators shall be installed to support controlled shutdown or continued functioning of equipment supporting critical business operations</li>
+<li style="list-style-type: '· ';">Appropriate water/ moisture sensors shall be installed to detect water leakage and seepage</li>
+<li style="list-style-type: '· ';">Critical information systems, storage media, document and assets shall not be located in areas susceptible to water seepage or flooding, or near combustible materials.</li>
+<li style="list-style-type: '· ';">A preventive maintenance exercise for the utility equipment (electrical equipment, fire equipment, AC, UPS, water leakage detectors, etc.) including alarm systems is carried out at scheduled intervals ensuring their continued availability and integrity.</li>
+</ul>
+<h2>18. Change Management Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">A Change Advisory Board (CAB) shall be formed for approving and tracking critical changes.</li>
+<li style="list-style-type: '· ';">A change management process shall be documented and established that shall at least include types of changes, recording of changes, business and security approvals, impact assessment due to  the  change,  testing  the  change,  roll  back  procedures  and  post  implementation  review  of changes.</li>
+<li style="list-style-type: '· ';">Changes to system components shall be adequately controlled and shall be carried out only after changes are validated, documented and approved by authorized individuals.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">The potential business impacts of changes shall be assessed (for e.g., in terms of the overall risk and impact on other components of the application)</li>
+<li style="list-style-type: '· ';">Changes shall be reviewed to ensure that they do not compromise security controls (e.g., by checking software to ensure it does not contain malicious code, such as a Trojan horse or a virus)</li>
+<li style="list-style-type: '· ';">Back-out positions shall be established so that the system or application can recover from failed changes or unexpected results</li>
+<li style="list-style-type: '· ';">Changes to the system or application shall be performed by skilled and competent individuals who are capable of making changes correctly and securely.</li>
+<li style="list-style-type: '· ';">Changes shall not be carried out directly in the production environment unless required during contingency (for emergency changes) with prior authorization.</li>
+<li style="list-style-type: '· ';">Any deviations from the implementation plan shall be recorded and approved by the Change Manager and informed to CAB.</li>
+<li style="list-style-type: '· ';">Status  of  Changes  (e.g.,  successful,  failed,  cancelled,  etc.)  post  activity  shall  be  recorded  and communicated to the change manager or change management team.</li>
+<li style="list-style-type: '· ';">The  change  manager  or  change  management  team  shall  ensure  that  status  of  all  changes  is informed and updated by resp activity SPOCs within the required timeframe.</li>
+<li style="list-style-type: '· ';">Record of changes shall be maintained for at least a period of 1 year.</li>
+</ul>
+<h2>19. Security Incident Management Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Processes  shall  be  implemented  and  documented  to  manage  information  security  incidents including but not limited to incident detection, reporting, ownership, classification, investigation, resolution and closure.</li>
+<li style="list-style-type: '· ';">A formal incident management process shall be documented for timely detection, reporting and management of information security incidents within the organization's computing environment.</li>
+<li style="list-style-type: '· ';">Security incidents shall be reported from all relevant sources, including users, audit process, SOC, advisory team, customers, etc.</li>
+<li style="list-style-type: '· ';">Escalation and communication processes and lines of authority shall be established</li>
+<li style="list-style-type: '· ';">All reported security events shall be analyzed before being classified as security incidents. Based on the learning from the incident, Cyber Security Team shall make necessary changes (if required) to security policies.</li>
+<li style="list-style-type: '· ';">The Cyber Security Team shall conduct periodic sessions to make staff and third-party personnel aware of the procedures for identifying different types of security events.</li>
+<li style="list-style-type: '· ';">All information security incidents shall be recorded in a log or equivalent (e.g. using an automated information security incident management system) and categorized according to their severity and type. GILAC shall classify incident based on incident classification criteria outlined in Security Incident Management Procedure.</li>
+<li style="list-style-type: '· ';">For critical incidents that need communication to be sent out to employees or customers should be done as soon possible.</li>
+<li style="list-style-type: '· ';">All reported security incidents shall be responded and resolved timely, and if not, then escalated as per the classification of security incidents.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Cyber  Security  Team  shall  verify  all  reported  security  incidents  for  closure  and  conduct  postincident analysis by reviewing the appropriateness of actions taken for closure.</li>
+<li style="list-style-type: '· ';">Cyber  Security  Team  shall  investigate  the  cause  of  all  reported  security  incidents.  Wherever required, they shall also verify the implementation of recovery solutions.</li>
+<li style="list-style-type: '· ';">Cyber Security Team shall maintain a knowledge base of all security incidents and the identified solutions. This will help in providing quicker solution if the same or similar incident happens again.</li>
+<li style="list-style-type: '· ';">Cyber Security Team shall collect significant evidence for conducting necessary investigation. The events and logs shall be retained for a period as required by legal, regulatory or other compliance obligations.</li>
+<li style="list-style-type: '· ';">Cyber  Security  Team  shall  conduct  post-mortem  analysis  and  reviews  to  identify  causes  of information security incidents, developing corrective actions and reassessing risk, and adjusting controls suitably to reduce the related risks in the future.</li>
+<li style="list-style-type: '· ';">Cyber Security Team shall perform Forensic investigations for incidents requiring investigation for legal purposes and /or severe information security incidents.</li>
+<li style="list-style-type: '· ';">All security incidents and breaches shall be discussed with management on quarterly basis.</li>
+</ul>
+<h2>20. Data Backup, Retention and Disposal Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Information owners shall determine the backup and recovery requirements based on the criticality of information systems to prevent operational disruptions or data loss.</li>
+<li style="list-style-type: '· ';">Backup media shall be stored in a secure location in a off-site facility such as an alternate or backup site.</li>
+<li style="list-style-type: '· ';">Data recovery processes shall be tested for effectiveness on annual basis.</li>
+<li style="list-style-type: '· ';">Data backup shall be encrypted.</li>
+<li style="list-style-type: '· ';">IT operations team shall identify and establish appropriate processes to meet the backup and recovery requirements determined by information owners.</li>
+<li style="list-style-type: '· ';">Data retention period shall be defined and records shall be retained for the defined period.  This shall be reviewed at least once in a year and updated with changes if any. Retention periods for data shall be decided based on the following,</li>
+<li style="list-style-type: '1. ';">GILAC's business requirements,</li>
+<li style="list-style-type: '2. ';">Legal or regulatory compliances,</li>
+<li style="list-style-type: '3. ';">Contractual obligations.</li>
+<li style="list-style-type: '· ';">Records shall be maintained in a safe and secure environment. Records shall be protected from unauthorized access.</li>
+<li style="list-style-type: '· ';">All waste copies of sensitive information that are generated while copying, printing, or faxing shall be shredded using paper shredders/incinerators or shall be placed in locked bins clearly marked as containing confidential data.</li>
+<li style="list-style-type: '· ';">Storage media like floppy disk, hard drives, CDs, tape or optical media, zip disks, etc. shall be erased using a degaussing device or 'disk-wiping' software before being discarded.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">If the data cannot be erased, then Media shall be physically destroyed prior to disposal in such a manner that data should be beyond retrieval.</li>
+<li style="list-style-type: '· ';">Non-disclosure agreement shall be signed between the Organization and external contractor for outsourcing disposal. Certificates of secure disposal shall be obtained from external contractor.</li>
+</ul>
+<h2>21. Data Security Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall implement mechanisms to prevent the accidental disclosure of email and attachments to unauthorized individuals by enforcing encryption between email servers (e.g. using Transport Layer Security (TLS) or equivalent).</li>
+<li style="list-style-type: '· ';">Email servers shall protect messages by using digital signatures to identify if email messages have been modified in transit.</li>
+<li style="list-style-type: '· ';">Users shall be educated in how to protect the confidentiality and integrity of email messages (e.g. by the use of encryption, digital certificates and digital signatures).</li>
+<li style="list-style-type: '· ';">Data Security solution (e.g. DLP, IRM, etc.) should be used to identify specific types of sensitive information, monitor channels of data leakage (vectors) and take actions to prevent this data from leaking.</li>
+<li style="list-style-type: '· ';">Data Security solution should be configured to monitor and control the flow of sensitive data using technical Data Security solution policies, defining:</li>
+<li style="list-style-type: '1. ';">what data can and cannot be sent, posted, uploaded, moved or copied and pasted.</li>
+<li style="list-style-type: '2. ';">where data can be transmitted.</li>
+<li style="list-style-type: '3. ';">who can send and receive data (e.g. via email).</li>
+<li style="list-style-type: '4. ';">how data can be shared.</li>
+<li style="list-style-type: '· ';">Data Security solution should be configured to include a register of keywords, electronic document characteristics and the specific types of sensitive information (sometimes referred to as pre-registration) that need to be protected from unauthorized disclosure.</li>
+<li style="list-style-type: '· ';">Data Security solution should be configured to detect sensitive data by using</li>
+<li style="list-style-type: '1. ';">described content matching, which checks data against regular expressions, defined strings, keywords, patterns or dictionaries (a list of specific terms, keywords or key phrases);</li>
+<li style="list-style-type: '2. ';">fingerprinting (indexing), which takes a cryptographic hash of a sample file or file contents to create a 'fingerprint', checking content against this fingerprint for complete or partial matches (i.e. to detect either the complete text or excerpts that match the sample document)</li>
+<li style="list-style-type: '3. ';">machine learning, which uses algorithms and statistical techniques to determine if content is similar to test data, used to train the machine learning algorithm, used by the Data Security solution</li>
+<li style="list-style-type: '4. ';">optional character recognition (image recognition), which analyses image files (e.g. screenshots or scanned documents) and extracts text to find matches for sensitive content.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Data Security solution should be configured to monitor data leakage channels where sensitive data is in motion (e.g. data traversing a network such as the internet or private network), in use (e.g. data processed on endpoint devices) or at rest (e.g. data stored in file systems, databases, the cloud or endpoint devices)</li>
+<li style="list-style-type: '· ';">Backups should be encrypted to protect sensitive information, when:</li>
+<li style="list-style-type: '1. ';">transmitted via a network to external storage facilities, particularly when engaging with a third party to support backup capabilities</li>
+<li style="list-style-type: '2. ';">stored on physical media, to prevent unauthorized access in the event backups are lost or stolen in transit to an alternative location, such as an offsite storage facility</li>
+<li style="list-style-type: '· ';">Data processed by cloud services should be protected, which includes encrypting sensitive data by using the CSP default encryption solution, configuring customer-managed key encryption or implementing customer-supplied key encryption.</li>
+<li style="list-style-type: '· ';">USB shall be blocked for all end-users. In case of any deviation, policy change shall be preapproved by the respective Business heads.</li>
+<li style="list-style-type: '· ';">Sensitive information shall not be kept for longer than it is required to reduce the risk of undesirable disclosure.</li>
+<li style="list-style-type: '· ';">Information shall be deleted from systems, applications, and services in accordance with business requirements and taking into consideration relevant laws and regulations.</li>
+<li style="list-style-type: '· ';">When using service suppliers for information deletion, evidence of information deletion shall be obtained from them.</li>
+</ul>
+<h2>22. Capacity Management Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Systems capacity shall be monitored. Capacity monitoring data shall be analyzed to identify the trends and discrepancies on a regular basis, especially for critical systems.</li>
+<li style="list-style-type: '· ';">New business and system requirements, as well as the current and future trends for information systems usage shall be used to develop future projections for capacity requirements.</li>
+<li style="list-style-type: '· ';">GILAC  shall  identify  the  required  actionable  for  capacity  management  to  ensure  effective performance of information systems and business processes. The action plan shall identify and consider  the  capacity  requirements  based  on  business  criticality  of  the  concerned  systems, business  requirements,  Service  Level  Agreements,  Memorandums  of  Understanding,  and  risk assessments.</li>
+</ul>
+<h2>23. System Acquisition, Development, Planning and Maintenance Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC  shall  ensure  that  cybersecurity  requirements  are  included  in  the  entire  lifecycle  of information systems &amp; applications, whether acquired or developed, and integrated as early as possible.</li>
+<li style="list-style-type: '· ';">Security engineering principles should be established, documented and applied to information system engineering activities. Security should be designed into all architecture layers.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">The Cybersecurity function shall perform activities such as vulnerability assessments, configurations' review, for newly developed/acquired systems/applications. All findings shall be mitigated before going live in production environment.</li>
+<li style="list-style-type: '· ';">The Application team shall perform activities such as secure configuration, hardening and patching of new applications prior to go live.</li>
+<li style="list-style-type: '· ';">GILAC shall ensure that the development of new applications or updates to existing applications incorporate secure coding standards.</li>
+<li style="list-style-type: '· ';">Source code should be protected against unauthorized access and tampering. Access to source code  should  be  restricted  only  to  authorized  personnel.  Changes  to  source  code  should  be recorded to maintain an audit trail.</li>
+<li style="list-style-type: '· ';">GILAC  change  management  process  shall  be  followed  when  attempting  to  perform  system maintenance and updates.</li>
+<li style="list-style-type: '· ';">All Vendor and third-party contracts shall include the cybersecurity requirements for any product/system procurement.</li>
+<li style="list-style-type: '· ';">In case of outsourced system development, the organization shall communicate and agree requirements and expectations regarding licensing agreements, code ownership, secure design, secure coding standards, testing practices, etc. and continually monitor and review whether the delivery of outsourced work meets these expectations.</li>
+<li style="list-style-type: '· ';">Operational information used for testing purposes shall be appropriately protected.</li>
+<li style="list-style-type: '· ';">Same access control procedures shall be applied to test environments as those applied to operational environments.</li>
+<li style="list-style-type: '· ';">Usage of operational information shall be recorded to maintain an audit trail.</li>
+<li style="list-style-type: '· ';">Operational information shall be properly deleted from a test environment immediately after the testing is complete to prevent unauthorized use of test information.</li>
+</ul>
+<h2>24. Network Security Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall develop and approve baseline security standards for network devices.</li>
+<li style="list-style-type: '· ';">Firewall configurations and rules shall be reviewed periodically, and at least quarterly for sensitive systems.</li>
+<li style="list-style-type: '· ';">GILAC shall provide the necessary protection when browsing and connecting to the Internet, and restrict access to suspicious websites, file storage sharing sites, and remote access sites.</li>
+<li style="list-style-type: '· ';">Managing the access rights of third parties to the network shall be in accordance with the GILAC Access Management Policy.</li>
+<li style="list-style-type: '· ';">Strong authentication and encryption techniques shall be used to ensure the protection of wireless networks.</li>
+<li style="list-style-type: '· ';">Firewalls, Intrusion Prevention Systems (IPS), and DNS Security technologies shall be in place and updated periodically for proper logical and physical segmentation between internal corporate network and between external networks.</li>
+<li style="list-style-type: '· ';">GILAC shall apply network segregation between production environment and test &amp; development environments.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">The use of physical network ports in all GILAC facilities shall be restricted by using Port Security or Port-Based Authentication technology to protect the network from the possibility of connecting unauthorized or suspicious devices without being revealed.</li>
+<li style="list-style-type: '· ';">GILAC shall restrict direct connection to the internet.</li>
+</ul>
+<h2>25. Secure Baseline &amp; Vulnerability Management</h2>
+<ul>
+<li style="list-style-type: '· ';">Secure Baseline standards shall be defined for all system components (endpoints/workstations, network  devices,  operating  systems,  databases,  applications  and  other  systems  which  require secure baseline) and shall be implemented across all systems.</li>
+<li style="list-style-type: '· ';">Applications  and  IT  infrastructure  shall  be  subject  to  periodic  technical  assessments  like Application Security Review, Vulnerability Assessments and Penetration Testing.</li>
+<li style="list-style-type: '· ';">Cyber Security Team shall conduct periodic vulnerability scans as per defined cycle and share report with system owners for closure of findings.</li>
+<li style="list-style-type: '· ';">The vulnerabilities detected shall be remediated promptly so as to avoid exploitation of such vulnerabilities.</li>
+<li style="list-style-type: '· ';">Penetration testing of public facing systems as well as other critical applications shall be carried out by professionally qualified teams.</li>
+</ul>
+<h2>26. Security Patch Management Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Security  operations  team,  Server  team,  Network  Administrators,  Database  administrators  and Application administrators are responsible for identification and validation of all patch related issues concerning their domain of work.</li>
+<li style="list-style-type: '· ';">System owners shall be responsible for deployment of patches.</li>
+<li style="list-style-type: '· ';">Application and System owners shall ensure that all patches applicable to applications and systems used by GILAC are identified.</li>
+<li style="list-style-type: '· ';">Patches shall be tested in a test environment before being applied to production systems.</li>
+<li style="list-style-type: '· ';">Security Patch Management Process shall be followed to prioritize patches.</li>
+<li style="list-style-type: '· ';">IT Infrastructure team shall establish methods to protect information and systems if no patch is available for an identified vulnerability, for example, disabling services and adding additional access controls.</li>
+<li style="list-style-type: '· ';">Delay in security patch deployment shall be tracked.</li>
+<li style="list-style-type: '· ';">New devices shall be patched to the current patch level, as defined by the operating system vendor and supported by the application, prior to the device being connected to the production network.</li>
+<li style="list-style-type: '· ';">IT  infrastructure  team  shall  submit  the  patch  management  report  on  periodic  basis  to  the respective Business Units.</li>
+<li style="list-style-type: '· ';">Respective system owners shall be responsible for patching of their systems.</li>
+<li style="list-style-type: '· ';">The Cyber Security Team shall track all security patch implementations using the patch dashboard or patch status report. This is to ensure that all patches are installed on all system and also to keep a track of patches which are not installed.</li>
+</ul>
+<h2>27. Audit Logging and Monitoring Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Security logging, monitoring and reporting capabilities shall be implemented to detect security events  within  GILAC's  network  and  information  assets  in  accordance  with  applicable  laws, regulations and industry standards.</li>
+<li style="list-style-type: '· ';">Logs of all critical servers, network devices and system components that support security functions (for example, firewalls, intrusion-detection systems/intrusion-prevention systems (IDS/IPS), authentication servers, etc.) shall be stored, reviewed and monitored to detect malicious activities.</li>
+<li style="list-style-type: '· ';">Critical Business applications and technical infrastructure shall be configured to enable event logging (standard format/syslog or equivalent).</li>
+<li style="list-style-type: '· ';">Critical Business applications and technical infrastructure shall generate appropriate event types (e.g. Object creation, login attempts etc.)</li>
+<li style="list-style-type: '· ';">The logs generated shall have relevant event attributes in event entries (e.g. IP address, username, time and date, protocol used, port accessed, method of connection, name of device and object name, etc.)</li>
+<li style="list-style-type: '· ';">All systems shall use a trusted source for date and time to ensure logs use accurate time stamps. The trusted time source shall be synched with global atomic clocks for accurate timing.</li>
+<li style="list-style-type: '· ';">Critical servers and network devices shall be configured to log / alert creation and deletion of system-level objects.</li>
+<li style="list-style-type: '· ';">Critical servers and network devices shall be configured to log / alert initialization, stopping or pausing of the audit logs.</li>
+<li style="list-style-type: '· ';">Security relevant logging shall be enabled at all times.</li>
+<li style="list-style-type: '· ';">Logs shall be protected against unauthorized access, misuse and modification. Sufficient storage space shall be allocated based on expected volume of logs.</li>
+<li style="list-style-type: '· ';">Security-related  event  logs  shall  be  analyzed  regularly  to  help  identify  anomalies.  Anomalies detected shall generate alerts in SIEM (Security information and event management) tool. Various use-cases to be defined in SIEM to detect security events covering all possible threat landscapes.</li>
+<li style="list-style-type: '· ';">Security Operations Center (SOC) team shall monitor security alerts generated in the SIEM tool 24x7. Any incident identified or reported shall be handled as per Incident Management process.</li>
+<li style="list-style-type: '· ';">Information relating to information security threats shall be collected and analyzed to produce threat intelligence.</li>
+<li style="list-style-type: '· ';">User accounts shall be monitored regularly to detect any unwanted privileges, orphan accounts, and dormant accounts. Any accounts detected in violation of GILAC's policies shall be suspended or terminated.</li>
+<li style="list-style-type: '· ';">The logging of security-related events should be reviewed on quarterly basis to verify whether alerts are getting triggered in SIEM as per configured use-case.</li>
+<li style="list-style-type: '· ';">Audit logs shall be retained for at least one year and shall be readily available for last 3 months.</li>
+<li style="list-style-type: '· ';">The organization shall also subscribe and connect with special interest groups or other specialist security forums and professional associations with the aim to improve knowledge about best practices, receive early warnings of alerts, advisories and patches pertaining to attacks and vulnerabilities and stay up to date with relevant security information.</li>
+</ul>
+<h2>28. Network Time Protocol</h2>
+<ul>
+<li style="list-style-type: '· ';">The real time clock of systems shall be set accurately to ensure the accuracy of audit logs, which may be required for investigation or as evidence in legal or disciplinary cases.</li>
+<li style="list-style-type: '· ';">The real time clock of systems and communication devices shall be in sync with central NTP server. Further there shall be procedure that checks and corrects drift in the real time clock.</li>
+</ul>
+<h2>29. Anti-Virus Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">All servers, desktops and laptops shall have anti-virus agent installed. Infrastructure Team shall ensure  that  all  new  systems  including  desktops,  laptops,  and  servers  have  anti-virus  agent installed, pre-loaded and configured before provisioning.</li>
+<li style="list-style-type: '· ';">Anti-virus agent installation shall be password protected to ensure that end users cannot uninstall the agent. The anti-virus agent shall be configured in such a way that end users will not have privileges to change any settings or to disable the agent.</li>
+<li style="list-style-type: '· ';">Anti-virus agent shall be configured to scan the machine at least once every week. The scanning can be scheduled during non-peak usage hours.</li>
+<li style="list-style-type: '· ';">Anti-virus agent shall be configured to scan all removable disks before use.</li>
+<li style="list-style-type: '· ';">Anti-virus agent shall be configured to quarantine virus infected files if they cannot be cleaned.</li>
+<li style="list-style-type: '· ';">Access to websites and other resources on the internet known to host malicious content shall be prevented using the web content filtering tool. Antivirus software shall be installed on the Internet Proxy and if feasible configured to scan downloads/uploads for malicious code.</li>
+<li style="list-style-type: '· ';">GILAC  shall  employ  anti-malware  signature  auto  update  features.  After  applying  an  update, automated systems shall verify that each system has received its signature update. The GILAC shall monitor anti-virus console logs to correct any systems that failed to be updated.</li>
+<li style="list-style-type: '· ';">Infrastructure team shall submit monthly reports on the status of the Anti-Virus protection to the Cyber Security Team.</li>
+<li style="list-style-type: '· ';">For external users (including consultants, vendors, customers, and service providers) who bring laptops/desktops into the Organization's premises, GILAC shall ensure the devices are scanned for viruses or compensating controls are in place to prevent the spread of viruses before allowing these devices access to GILAC network.</li>
+<li style="list-style-type: '· ';">Provisions shall be made for real-time triggering and monitoring of alerts related to virus/malware detection and necessary actions shall be taken to remediate the same.</li>
+</ul>
+<h2>30. Email Security Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall implement technologies to protect e-mail by analyzing and filtering e-mail messages, and block suspicious messages such as spam and phishing emails.</li>
+<li style="list-style-type: '· ';">Access to e-mail messages shall be restricted to GILAC employees, consultants &amp; contractors only.</li>
+<li style="list-style-type: '· ';">GILAC shall ensure that email systems are only accessed by individual users via their user IDs.</li>
+<li style="list-style-type: '· ';">All emails sent from organization addresses to recipients outside of the organization shall carry the following disclaimer in English: 'DISCLAIMER: The information in this message is</li>
+</ul>
+<p>confidential and may be legally privileged. It is intended solely for the addressee. Access to this message by anyone else is unauthorised. If you are not the intended recipient, any disclosure, copying, or distribution of the message, or any action or omission taken by you in reliance on it, is prohibited and may be unlawful. please immediately contact the sender if you have received this message in error.</p>
+<h2>GODREJ INDUSTRIES LIMITED AND ASSOCIATED COMPANIES'.</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall prohibit the System Administrator to access the e-mail contents of any employee without prior permission.</li>
+<li style="list-style-type: '· ';">GILAC shall ensure that GILAC's email is only used for business purposes.</li>
+<li style="list-style-type: '· ';">Multi-Factor Authentication shall be required to access the email service remotely or through a Webmail page.</li>
+<li style="list-style-type: '· ';">GILAC emails that contain classified information shall be encrypted.</li>
+<li style="list-style-type: '· ';">GILAC shall archive the emails and perform backups periodically and according to business requirements.</li>
+<li style="list-style-type: '· ';">Limits shall be defined for email attachments to ensure appropriate capacity management for each user's mailbox.</li>
+<li style="list-style-type: '· ';">A warning notice shall be displayed for emails being sent to recipients outside the organization.</li>
+<li style="list-style-type: '· ';">Incoming and outgoing email attachment shall be filtered at the email gateway. GILAC email gateway shall be protected against Advanced Persistent Threats and Zero Day attacks shall be implemented.</li>
+<li style="list-style-type: '· ';">Anti-virus software shall be configured to scan attachments in all emails. If a virus is found in an incoming SMTP mail, then the appropriate actions shall be taken to delete or quarantine the attachment.</li>
+<li style="list-style-type: '· ';">Third party vendors shall not be allowed to send emails to external domains.</li>
+<li style="list-style-type: '· ';">The organization shall prohibit:</li>
+<li style="list-style-type: '1. ';">Automatic email diversion to external email addresses.</li>
+<li style="list-style-type: '2. ';">Unauthorized private encryption of email or attachments.</li>
+<li style="list-style-type: '3. ';">The opening of attachments from unknown or untrusted sources.</li>
+<li style="list-style-type: '· ';">GILAC shall disable the Open Mail Relay service.</li>
+</ul>
+<h2>31. Third-party Management Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">The information security requirements and controls shall be formally documented in a contractual agreement which may be part of, or an addendum to, the main commercial contract.</li>
+<li style="list-style-type: '· ';">Confidentiality and non-disclosure of GILAC data shall be addressed in vendor contracts using legally enforceable terms.</li>
+<li style="list-style-type: '· ';">Appropriate legal advice shall be obtained to ensure that contractual documentation is valid within the country in which it is to be applied.</li>
+<li style="list-style-type: '· ';">If required then separate Non- Disclosure agreement shall be made on Government stamp paper and it shall be used where a more specific level of control over confidentiality is required.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Contracts with third-party vendors shall include terms for complete deletion of data/ information at the end of the Agreement.</li>
+<li style="list-style-type: '· ';">Contracts shall also outline clauses for notification and reporting of unauthorized disclosure or confidential information leakage to GILAC within the agreed timeframe.</li>
+<li style="list-style-type: '· ';">Appropriate due diligence shall be exercised in the selection and approval of new vendor/supplier before contracts are agreed.</li>
+<li style="list-style-type: '· ';">The information security provisions in place at existing suppliers (where due diligence was not undertaken as part of initial selection) shall be clearly understood and improved where necessary.</li>
+<li style="list-style-type: '· ';">The supplier shall be expected to exercise adequate control over the information security policies and procedures used within sub-contractors who play apart in the supply chain of delivery of goods or services to Godrej.</li>
+<li style="list-style-type: '· ';">Godrej shall have all rights to audit the information security practices of the vendor/supplier and, where appropriate sub-contractors.</li>
+<li style="list-style-type: '· ';">The selection of required controls shall be based upon a comprehensive risk assessment taking into  account  Information  Security  requirements,  the  product  or  services  to  be  supplied,  its criticality to the organization and compatibility of the suppliers.</li>
+<li style="list-style-type: '· ';">For  those  vendors/suppliers  that  were  not  subject  to  information  security  due  diligence assessment  being  made,  an  evaluation  process  shall  be  undertaken  in  order  to  identify  any required improvements.</li>
+<li style="list-style-type: '· ';">SLA and performance of vendors/suppliers shall be monitored and reviewed as per contractual agreements on bi-annual basis.</li>
+</ul>
+<h2>32. Cloud Security Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall perform an assessment of the cloud service provider (CSP) prior to onboarding.</li>
+<li style="list-style-type: '· ';">The Procurement and Legal teams shall include the necessary legal, non-disclosure, business continuity and disaster recovery clauses in the CSP contract.</li>
+<li style="list-style-type: '· ';">The Data Owner/Custodian shall classify the data being hosted/stored at the CSP as per the 'GILAC Information Classification Scheme'.</li>
+<li style="list-style-type: '· ';">The organization shall ensure that the CSP's data privacy policy complies with the applicable laws.</li>
+<li style="list-style-type: '· ';">The IT team should implement the necessary cryptography controls for the data as per the data classification and on the network channel.</li>
+<li style="list-style-type: '· ';">Contracts with CSP shall include clauses for complete deletion of data/ information at the end of the Agreement.</li>
+<li style="list-style-type: '· ';">Contract shall also include clauses for the return of data to the organization and that there is no vendor-lock in period defined by the CSP.</li>
+<li style="list-style-type: '· ';">Wherever applicable, GILAC shall align its Cloud Security controls with industry good practices such as CIS benchmark.</li>
+<li style="list-style-type: '· ';">Roles and responsibilities for protecting the cloud environment should be agreed with the CSP, including shared responsibilities and the need for collaboration.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall ensure monitoring of security-related events and logs for cloud systems.</li>
+<li style="list-style-type: '· ';">The IT team shall implement the appropriate access permissions for the cloud environment as per the 'GILAC Access Management Policy'.</li>
+<li style="list-style-type: '· ';">Access to cloud-based services shall be provided using multi-factor authentication mechanism.</li>
+<li style="list-style-type: '· ';">Secure methods of connecting to cloud services shall be provided, which may include applying HTTPS (TLS) to all network traffic, configuring a virtual private network (VPN) for sensitive traffic and/or implementing a wide area network (WAN) solution for critical and/or highly sensitive information, segmenting networks by implementing virtual local area networks (VLANs), etc.</li>
+<li style="list-style-type: '· ';">The IT team should perform periodic backups of data hosted/stored on cloud environment as per 'GILAC Data backup &amp; restoration policy'.</li>
+<li style="list-style-type: '· ';">GILAC shall conduct an organizational assessment of risk prior to the acquisition or outsourcing of dedicated information security services and that the acquisition or outsourcing of dedicated information security services is approved by Cyber Security Team within the organization.</li>
+<li style="list-style-type: '· ';">The organization performs scans to identify vulnerabilities in the cloud environment as well as applications hosted in the cloud as per GILAC's Vulnerability Management Policy.</li>
+<li style="list-style-type: '· ';">Information security awareness, education and training programs about cloud services shall be provided to employees and the supervising managers, including those of business units.</li>
+<li style="list-style-type: '· ';">The organization shall perform penetration testing at a defined frequency on cloud information systems and application hosted.</li>
+<li style="list-style-type: '· ';">Information security events shall be reported through appropriate management channels as quickly as possible. The mechanisms for incident reporting shall be agreed with the CSP as part of the agreement.</li>
+<li style="list-style-type: '· ';">Organizations shall regularly monitor, review and audit supplier/ CSP service delivery &amp; SLA to ensure CSP complies to GILAC's Information Security Policies.</li>
+</ul>
+<h2>33. Cryptography Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">Confidentiality, integrity, authenticity and non-repudiation of business-critical information during its transmission over un-trusted networks shall be maintained.</li>
+<li style="list-style-type: '· ';">Encryption algorithms shall be implemented based on risk assessment.</li>
+<li style="list-style-type: '· ';">Legal and regulatory requirements of cryptographic controls shall be complied with by only using standard publicly released and tested algorithms.</li>
+<li style="list-style-type: '· ';">All encryption products and processes deployed on information assets shall be approved by Head of Information Security before deployment.</li>
+</ul>
+<h2>34. Business Continuity &amp; Disaster Recovery</h2>
+<ul>
+<li style="list-style-type: '· ';">Business  Functional  Heads  shall  identify  critical  business  applications  &amp;  processes  under  their purview  that  are  required  for  continued  operations  of  GILAC,  in  the  event  of  a  disaster.  The criticality  of  applications &amp; processes shall be evaluated based on the impact to business and implications on BU's services.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">Business  process  and  technology  redundancies  shall  be  identified  and  deployed  to  avoid  or reduce impact of disaster events. DR site shall be set up for critical business applications and processes to ensure continuity of business.</li>
+<li style="list-style-type: '· ';">Business Functional Heads shall identify and document the Recovery Time Objective [RTO] and Recovery Point Objective [RPO] for critical business applications and processes.</li>
+<li style="list-style-type: '· ';">Business Functional Heads along with IT department Heads shall evaluate and define DR plan.</li>
+<li style="list-style-type: '· ';">Business Functional Heads along with IT Team shall conduct DR drills/tests on biannual basis to verify the appropriateness of the DR plan.</li>
+<li style="list-style-type: '· ';">Application owner shall be responsible for reviewing and updating the DR plan based on the test results.</li>
+<li style="list-style-type: '· ';">DR plan documents shall be accessible and available to respective stake owners and teams in case the same needs to be referred in an event of an incident/disaster.</li>
+<li style="list-style-type: '· ';">Business Heads shall maintain all records with respect to DR drills for a minimum period of 2 years.</li>
+<li style="list-style-type: '· ';">Training &amp; Awareness program shall be established for all GILAC functions and facilities. Relevant records shall be kept for a minimum period of 2 years for reporting purpose and to identify areas of improvement.</li>
+<li style="list-style-type: '· ';">Business Heads shall document &amp; maintain all records in case of incidents/disasters where DR needs to be invoked. Same shall be retained for a minimum period of 2 years.</li>
+<li style="list-style-type: '· ';">Business Functional Heads shall work together with the IT Team to improve Recovery Time taken on the DR Setup for critical business applications.</li>
+</ul>
+<h2>35. Operational Technology (OT) Policy</h2>
+<ul>
+<li style="list-style-type: '· ';">In  case  of  a  need  to  connect  OT  network  with  internal  corporate  network,  necessary  security controls shall be implemented, before establishing the connection. Approved connections shall be restricted and limited to identified secure services / protocols.</li>
+<li style="list-style-type: '· ';">GILAC shall ensure strict physical and virtual segmentation when connecting industrial production networks to other networks within the organization (e.g., corporate network)</li>
+<li style="list-style-type: '· ';">OT systems should be patched periodically basis OEM recommendations.</li>
+<li style="list-style-type: '· ';">GILAC shall perform periodic vulnerability assessments for OT systems.</li>
+<li style="list-style-type: '· ';">GILAC shall restrict access to OT locations and devices to authorized personnel only, the access shall be provided in compliance with physical security policy.</li>
+<li style="list-style-type: '· ';">Up-to-date anti-virus and malware protection solutions for OT shall be implemented. GILAC shall ensure that monitoring for malware detection is performed continuously.</li>
+<li style="list-style-type: '· ';">OT systems shall be securely configured and hardened, as per OEM recommendations, prior to production deployment. OT systems shall be periodically reviewed to ensure compliance.</li>
+<li style="list-style-type: '· ';">GILAC shall restrict unauthorized traffic to OT networks by configuring proper security controls (e.g. proxy servers, firewalls, etc.)</li>
+<li style="list-style-type: '· ';">GILAC shall implement necessary controls for continuous monitoring of cybersecurity event logs on OT network.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">External storage media, mobile devices or any other external devices shall not be connected to OT technology components and OT networks.</li>
+<li style="list-style-type: '· ';">OT Systems shall not have direct unsecured internet connectivity.</li>
+</ul>
+<h2>36. Compliance</h2>
+<h2>36.1. Compliance Management</h2>
+<ul>
+<li style="list-style-type: '· ';">All relevant legislative, statutory, regulatory, contractual requirements and the organization's approach to meet these requirements shall be explicitly identified, documented and kept up to date.</li>
+<li style="list-style-type: '· ';">Organization shall ensure compliance to Information Security and IT requirements defined in the 'IT Act' (latest) and mandatory cyber security guidelines issued by 'CERT-In' and same shall be reviewed periodically</li>
+<li style="list-style-type: '· ';">All employees shall adhere to the policies and procedures to maintain and keep up to date all relevant statutory, regulatory, and contractual requirements.</li>
+<li style="list-style-type: '· ';">Compliance violations shall be documented, reported and investigated by authorized personnel or team.</li>
+<li style="list-style-type: '· ';">Corporate Audit Team shall supervise and take necessary action in case of any deviation observed.</li>
+<li style="list-style-type: '· ';">Compliance with Information Security Policies and Procedures shall be reported to the GILAC Information Security Council on a periodic basis.</li>
+<li style="list-style-type: '· ';">All relevant statutory, regulatory and contractual documents and records shall be retained by resp departments of the Business Units for a period as per the required documentation/contracts.</li>
+<li style="list-style-type: '· ';">A review of compliance with legal and regulatory requirements that affect information security shall be performed regularly and when new legislation or regulatory requirements come into effect.</li>
+</ul>
+<h2>36.2. Intellectual Property Rights (IPR)</h2>
+<ul>
+<li style="list-style-type: '· ';">Information Owners shall be responsible for identifying Intellectual Property (IP) that may be used in business processes and corresponding obligations.</li>
+<li style="list-style-type: '· ';">Information Owners shall be responsible for maintaining and retaining proof of entitlement and usage of licenses of identified IP.</li>
+<li style="list-style-type: '· ';">IP  shall  be  acquired  only  through  Original  Equipment  Manufacturers  (OEMs)  or  authorized resellers and only licensed IP shall be used.</li>
+<li style="list-style-type: '· ';">IP material protected by copyright shall not be copied, duplicated or converted to another format, in full or in part other than permitted by copyright law.</li>
+<li style="list-style-type: '· ';">Media containing IP shall be removed from or securely overwritten prior to disposing.</li>
+<li style="list-style-type: '· ';">Information Owners shall disclose the IP owner credentials on the IP utilized for official purposes.</li>
+</ul>
+<h2>36.3. Use of Cryptographic Controls</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall ensure that the use of cryptographic controls is compatible to the laws of India and as well as the laws of its clients' country if any.</li>
+</ul>
+<h2>37. Data Privacy</h2>
+<h2>37.1. Privacy Governance</h2>
+<ul>
+<li style="list-style-type: '· ';">Responsibility for privacy and protection of sensitive personal information of all internal / external stakeholders shall be established.</li>
+<li style="list-style-type: '· ';">All Business Units shall designate a Grievance Officer to address privacy related grievances from stakeholder, if applicable.</li>
+<li style="list-style-type: '· ';">Processes and procedures shall be established to protect Sensitive Personal Information (SPI) in accordance with the applicable compliance requirements.</li>
+<li style="list-style-type: '· ';">Organization should consider hiding sensitive data (e.g. PII, SPI, etc.) by using techniques such as data masking, pseudonymization or anonymization taking applicable legislation into consideration.</li>
+<li style="list-style-type: '· ';">Personal data of stakeholders shall be securely stored, in manual or electronic form in accordance with the applicable compliance requirements.</li>
+<li style="list-style-type: '· ';">Privacy Impact Assessments (PIA) shall be conducted by respective Business Units periodically and when changes are anticipated on how sensitive personal information of stakeholders is acquired, stored, used or disclosed.</li>
+<li style="list-style-type: '· ';">Privacy training shall be administered to all staff and authorized third-party personnel who handle sensitive personal information.</li>
+<li style="list-style-type: '· ';">Changes to Legal and regulatory landscape related to privacy shall be periodically monitored and any impact from such changes shall be identified and addressed.</li>
+</ul>
+<h2>37.2. Notice</h2>
+<ul>
+<li style="list-style-type: '· ';">An online privacy notice shall be made available for stakeholders during collection of sensitive personal information.</li>
+<li style="list-style-type: '· ';">Privacy notice shall clearly and conspicuously describe how GILAC collects, uses, stores and discloses sensitive personal information.</li>
+</ul>
+<h2>37.3. Consent</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall obtain the stakeholder consent prior to collection, processing and transfer of sensitive personal information.</li>
+<li style="list-style-type: '· ';">Upon customer's request, GILAC shall provide mechanisms to correct or amend stakeholder's sensitive personal information.</li>
+</ul>
+<ul>
+<li style="list-style-type: '· ';">If the stakeholder withdraws his/her consent to use his/her personal information by GILAC, GILAC shall consider not providing services for which the information was sought, but data will be retained as per legal and regulatory requirements.</li>
+</ul>
+<h2>37.4. Collection and Use</h2>
+<ul>
+<li style="list-style-type: '· ';">GILAC shall limit the collection of sensitive personal information that is necessary and relevant for the purposes for which information is being collected.</li>
+<li style="list-style-type: '· ';">Sensitive personal information shall only be collected by reasonable, lawful and fair means.</li>
+<li style="list-style-type: '· ';">GILAC shall limit the use of sensitive personal information for the purposes identified in the privacy notice.</li>
+</ul>
+<h2>37.5. Disclosure</h2>
+<ul>
+<li style="list-style-type: '· ';">Sensitive personal information of stakeholders shall only be disclosed for the purposes outlined in the privacy notice.</li>
+</ul>
+<h2>37.6. Retention and Destruction</h2>
+<ul>
+<li style="list-style-type: '· ';">Sensitive personal information of stakeholders shall be retained for only as long as necessary to fulfill the stated purpose or based on legal or regulatory requirements.</li>
+</ul>
+<h2>37.7. Privacy Incidents and Grievances</h2>
+<ul>
+<li style="list-style-type: '· ';">Incidents that involve misuse, unauthorized access or disclosure of sensitive personal information shall be categorized and handled as privacy incidents.</li>
+<li style="list-style-type: '· ';">Grievance Officer shall address stakeholder privacy related complaints in accordance with legal or regulatory requirements.</li>
+</ul>
+<h2>38. Responsible Parties</h2>
+<p>There should be documented standards and procedures for managing the asset lifecycle. The owner of this policy is the Group CISO, who shall be responsible for the maintenance and updating of the policy document.</p>
+<p>While  Group  CISO  is  the  owner  of  this  policy,  he/she  can  utilize  various  departments  within  the organization to implement, enforce and support this policy.</p>
+</div>
+</body>
+</html>
