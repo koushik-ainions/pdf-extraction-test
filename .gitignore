@@ -42,5 +42,10 @@ wheels/
 logs/
 *.log
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Outputs (optional - comment out if you want to track these)
 # outputs/
